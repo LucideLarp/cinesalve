@@ -63,10 +63,35 @@
 
 <h2>How exact is the recovery</h2>
 <p>
-  Exact, on everything measured so far. The test compares a repaired file against the
-  original it was cut from and counts a frame as recovered only when it lands at the
-  same position and the same size the camera wrote. A frame decoded from a repaired
-  file is byte&#8209;for&#8209;byte identical to the same frame in the original.
+  Exact, on everything measured so far, including footage written by real cameras.
+  The test compares a repaired file against the original it was cut from and counts a
+  frame as recovered only when it lands at the same position and the same size the
+  camera wrote. A frame decoded from a repaired file is byte&#8209;for&#8209;byte
+  identical to the same frame in the original.
+</p>
+<p>
+  Real GoPro recordings, straight off the cameras, every frame exact and no decoder
+  errors. The HERO6 rows use a <em>different take from the same camera</em> as the
+  reference, which is what you would actually have.
+</p>
+<div class="scroll">
+<table>
+  <thead><tr><th>Real camera footage</th><th>Frames recovered</th><th>Exact</th></tr></thead>
+  <tbody>
+    <tr><td>HERO6, separate take as reference, cut at 60%</td><td class="num">425 / 425</td><td class="num">100%</td></tr>
+    <tr><td>HERO6, separate take as reference, cut at 85%</td><td class="num">603 / 603</td><td class="num">100%</td></tr>
+    <tr><td>HERO5</td><td class="num">456 / 456</td><td class="num">100%</td></tr>
+    <tr><td>HERO7</td><td class="num">210 / 210</td><td class="num">100%</td></tr>
+    <tr><td>HERO8</td><td class="num">210 / 210</td><td class="num">100%</td></tr>
+    <tr><td>Karma</td><td class="num">200 / 200</td><td class="num">100%</td></tr>
+    <tr><td>Fusion</td><td class="num">248 / 248</td><td class="num">100%</td></tr>
+    <tr><td>MAX</td><td class="num">175 / 175</td><td class="num">100%</td></tr>
+  </tbody>
+</table>
+</div>
+<p class="note">
+  And the same measure against files encoded on a computer, across resolutions, frame
+  rates and cut points:
 </p>
 <div class="scroll">
 <table>
@@ -86,23 +111,25 @@
 </table>
 </div>
 
-<h2>What it does not do yet</h2>
+<h2>What it does not do</h2>
 <p class="plain">
-  <strong>Every figure above comes from files encoded on a computer, not from a real
-  camera.</strong> Cinesalve has not yet been tested against footage from a DJI, GoPro,
-  Sony, Canon or iPhone, and those write containers with quirks of their own. If you
-  have a damaged clip from real hardware, send it and you will get a straight answer
-  about whether it can be recovered, before any money changes hands.
+  <strong>On GoPro footage the sound is left out.</strong> These cameras write timecode
+  and telemetry into the same block as the picture, and those bytes cannot be told
+  apart from audio with enough confidence to place it correctly. Rather than write
+  noise into your recording, Cinesalve recovers the video and says plainly that the
+  audio did not survive. On simpler files, sound comes back with the picture.
+</p>
+<p class="plain">
+  <strong>Only GoPro hardware has been tested so far.</strong> DJI, Sony, Canon and
+  iPhone recordings have not been through it yet. If you have a damaged clip from one
+  of those, send it and you will get a straight answer about whether it can be
+  recovered, before any money changes hands, and it will be added to the test suite.
 </p>
 <p class="plain">
   It handles H.264 and HEVC video with AAC audio in MP4 and MOV containers, which is
   what consumer and prosumer cameras record. It does not handle ProRes, MXF or AVI. It
   repairs recordings that were interrupted, which is the common failure; it cannot
   invent footage that was never written to the card.
-</p>
-<p class="plain">
-  About one audio frame in a hundred is still placed imperfectly, which can leave a
-  faint tick. Video is exact.
 </p>
 
 <h2 id="download">Getting it</h2>

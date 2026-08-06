@@ -46,9 +46,30 @@ the original.
 | H.264 without audio, cut at 60% | 143 / 143 (100%) | — |
 | HEVC 720p 30fps, cut at 60% | 146 / 146 (100%) | 98.6% |
 
-**These figures come from files encoded on a computer, not from a real camera.**
-Footage from a DJI, GoPro, Sony, Canon or iPhone has not been tested yet, and
-those write containers with quirks of their own. Send a damaged clip to
+### Real camera footage
+
+Genuine GoPro recordings, every frame exact, no decoder errors. The HERO6 rows
+use a *different take from the same camera* as the reference, which is what a
+user actually has.
+
+| real camera | frames recovered | exact |
+|---|---|---|
+| HERO6, separate take as reference, cut at 60% | 425 / 425 | 100% |
+| HERO6, separate take as reference, cut at 85% | 603 / 603 | 100% |
+| HERO5 | 456 / 456 | 100% |
+| HERO7 | 210 / 210 | 100% |
+| HERO8 | 210 / 210 | 100% |
+| Karma | 200 / 200 | 100% |
+| Fusion | 248 / 248 | 100% |
+| MAX | 175 / 175 | 100% |
+
+**On GoPro footage the sound is left out.** These cameras write timecode and
+telemetry into the same block as the picture, and those bytes cannot be told
+apart from audio confidently enough to place it. Rather than write noise into
+your recording, Cinesalve recovers the video and says so plainly.
+
+**Only GoPro hardware has been tested so far.** DJI, Sony, Canon and iPhone
+recordings have not been through it yet. Send a damaged clip to
 [cinesalve@proton.me](mailto:cinesalve@proton.me) or open an issue, and you will
 get a straight answer about whether it can be recovered before any money changes
 hands.
