@@ -62,11 +62,14 @@ user actually has.
 | Karma | 200 / 200 | 100% |
 | Fusion | 248 / 248 | 100% |
 | MAX | 175 / 175 | 100% |
+| QuickTime, written by Apple's own muxer | 420 / 420 | 100% |
 
-**On GoPro footage the sound is left out.** These cameras write timecode and
+**Sound is the weaker half, and you hear exactly what you get before paying.**
+On GoPro footage it is left out entirely: these cameras write timecode and
 telemetry into the same block as the picture, and those bytes cannot be told
-apart from audio confidently enough to place it. Rather than write noise into
-your recording, Cinesalve recovers the video and says so plainly.
+apart from audio confidently enough to place it. On simpler recordings sound
+does come back, though roughly one frame in ten can land imperfectly and leave
+an occasional click. Picture is exact either way.
 
 **Only GoPro hardware has been tested so far.** DJI, Sony, Canon and iPhone
 recordings have not been through it yet. Send a damaged clip to
