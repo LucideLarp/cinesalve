@@ -2,6 +2,8 @@
 
 **Recover a video recording your camera never finished writing.** macOS app.
 
+### [cinesalve.honorboxx.workers.dev](https://cinesalve.honorboxx.workers.dev)
+
 A flat battery, a pulled card or a crash leaves every frame on the card and only
 the index missing. Players report `moov atom not found` and refuse to open the
 file. Cinesalve reads a healthy clip from the same camera to learn how that
@@ -17,7 +19,7 @@ camera writes, then rebuilds the index of the damaged one.
 [cinesalve@proton.me](mailto:cinesalve@proton.me)
 
 **Not sure your file is recoverable?**
-[What "moov atom not found" means and how to get the footage back](https://lucidelarp.github.io/cinesalve/moov-atom-not-found.html)
+[What "moov atom not found" means and how to get the footage back](https://cinesalve.honorboxx.workers.dev/moov-atom-not-found)
 shows how to check in one command, why copying an index from another file cannot
 work, and what your options are including the free ones.
 
@@ -48,21 +50,27 @@ the original.
 
 ### Real camera footage
 
-Genuine GoPro recordings, every frame exact, no decoder errors. The HERO6 rows
-use a *different take from the same camera* as the reference, which is what a
-user actually has.
+Genuine GoPro recordings, every frame exact, no decoder errors. Two kinds of
+test, and they are not equally strong, so they are labelled.
 
-| real camera | frames recovered | exact |
-|---|---|---|
-| HERO6, separate take as reference, cut at 60% | 425 / 425 | 100% |
-| HERO6, separate take as reference, cut at 85% | 603 / 603 | 100% |
-| HERO5 | 456 / 456 | 100% |
-| HERO7 | 210 / 210 | 100% |
-| HERO8 | 210 / 210 | 100% |
-| Karma | 200 / 200 | 100% |
-| Fusion | 248 / 248 | 100% |
-| MAX | 175 / 175 | 100% |
-| QuickTime, written by Apple's own muxer | 420 / 420 | 100% |
+*Separate take* means a different clip from the same camera was the reference.
+That is the honest test, because it is the situation a user is actually in.
+*Same clip* means the file's own undamaged version was the reference: it proves
+Cinesalve handles that camera's container and telemetry, but it is the easier
+case, and nobody who needs this app has the undamaged file to hand. Read those
+rows as evidence about the camera, not as a promise about your clip.
+
+| real camera | reference used | frames recovered | exact |
+|---|---|---|---|
+| HERO6, cut at 60% | separate take | 425 / 425 | 100% |
+| HERO6, cut at 85% | separate take | 603 / 603 | 100% |
+| QuickTime, written by Apple's own muxer | separate take | 420 / 420 | 100% |
+| HERO5 | same clip | 456 / 456 | 100% |
+| HERO7 | same clip | 210 / 210 | 100% |
+| HERO8 | same clip | 210 / 210 | 100% |
+| Karma | same clip | 200 / 200 | 100% |
+| Fusion | same clip | 248 / 248 | 100% |
+| MAX | same clip | 175 / 175 | 100% |
 
 **Sound is the weaker half, and you hear exactly what you get before paying.**
 On GoPro footage it is left out entirely: these cameras write timecode and

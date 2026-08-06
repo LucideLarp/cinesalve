@@ -71,22 +71,31 @@
 </p>
 <p>
   Real GoPro recordings, straight off the cameras, every frame exact and no decoder
-  errors. The HERO6 rows use a <em>different take from the same camera</em> as the
-  reference, which is what you would actually have.
+  errors. Two kinds of test sit in the table below and they are not equally strong,
+  so they are labelled rather than blended together.
+</p>
+<p class="note">
+  <strong>Separate take</strong> means a different clip from the same camera was the
+  reference. That is the honest test, because it is the situation you are actually in.
+  <strong>Same clip</strong> means the file&rsquo;s own undamaged version was the
+  reference. It proves Cinesalve handles that camera&rsquo;s container and its
+  telemetry, but it is the easier case, and nobody who needs this app has the
+  undamaged file to hand. Read those rows as evidence about the camera, not as a
+  promise about your clip.
 </p>
 <div class="scroll">
 <table>
-  <thead><tr><th>Real camera footage</th><th>Frames recovered</th><th>Exact</th></tr></thead>
+  <thead><tr><th>Real camera footage</th><th>Reference used</th><th>Frames recovered</th><th>Exact</th></tr></thead>
   <tbody>
-    <tr><td>HERO6, separate take as reference, cut at 60%</td><td class="num">425 / 425</td><td class="num">100%</td></tr>
-    <tr><td>HERO6, separate take as reference, cut at 85%</td><td class="num">603 / 603</td><td class="num">100%</td></tr>
-    <tr><td>HERO5</td><td class="num">456 / 456</td><td class="num">100%</td></tr>
-    <tr><td>HERO7</td><td class="num">210 / 210</td><td class="num">100%</td></tr>
-    <tr><td>HERO8</td><td class="num">210 / 210</td><td class="num">100%</td></tr>
-    <tr><td>Karma</td><td class="num">200 / 200</td><td class="num">100%</td></tr>
-    <tr><td>Fusion</td><td class="num">248 / 248</td><td class="num">100%</td></tr>
-    <tr><td>MAX</td><td class="num">175 / 175</td><td class="num">100%</td></tr>
-    <tr><td>QuickTime, written by Apple's own muxer</td><td class="num">420 / 420</td><td class="num">100%</td></tr>
+    <tr><td>HERO6, cut at 60%</td><td>separate take</td><td class="num">425 / 425</td><td class="num">100%</td></tr>
+    <tr><td>HERO6, cut at 85%</td><td>separate take</td><td class="num">603 / 603</td><td class="num">100%</td></tr>
+    <tr><td>QuickTime, written by Apple's own muxer</td><td>separate take</td><td class="num">420 / 420</td><td class="num">100%</td></tr>
+    <tr><td>HERO5</td><td>same clip</td><td class="num">456 / 456</td><td class="num">100%</td></tr>
+    <tr><td>HERO7</td><td>same clip</td><td class="num">210 / 210</td><td class="num">100%</td></tr>
+    <tr><td>HERO8</td><td>same clip</td><td class="num">210 / 210</td><td class="num">100%</td></tr>
+    <tr><td>Karma</td><td>same clip</td><td class="num">200 / 200</td><td class="num">100%</td></tr>
+    <tr><td>Fusion</td><td>same clip</td><td class="num">248 / 248</td><td class="num">100%</td></tr>
+    <tr><td>MAX</td><td>same clip</td><td class="num">175 / 175</td><td class="num">100%</td></tr>
   </tbody>
 </table>
 </div>
