@@ -16,6 +16,11 @@ camera writes, then rebuilds the index of the damaged one.
 [Download](https://github.com/LucideLarp/cinesalve/releases/latest) ·
 [cinesalve@proton.me](mailto:cinesalve@proton.me)
 
+**Not sure your file is recoverable?**
+[What "moov atom not found" means and how to get the footage back](https://lucidelarp.github.io/cinesalve/moov-atom-not-found.html)
+shows how to check in one command, why copying an index from another file cannot
+work, and what your options are including the free ones.
+
 ## What it handles
 
 H.264 and HEVC video with AAC audio, in MP4 and MOV containers, which is what
