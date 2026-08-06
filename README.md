@@ -79,8 +79,8 @@ apart from audio confidently enough to place it. On simpler recordings sound
 does come back, though roughly one frame in ten can land imperfectly and leave
 an occasional click. Picture is exact either way.
 
-**Only GoPro hardware has been tested so far.** DJI, Sony, Canon and iPhone
-recordings have not been through it yet. Send a damaged clip to
+**GoPro and DJI hardware are tested. Sony, Canon and iPhone are not** and have
+not been through the suite yet. Send a damaged clip to
 [cinesalve@proton.me](mailto:cinesalve@proton.me) or open an issue, and you will
 get a straight answer about whether it can be recovered before any money changes
 hands.
