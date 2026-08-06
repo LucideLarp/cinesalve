@@ -87,9 +87,22 @@ hands.
 
 ## Installing
 
-Download the zip, unzip, drag `Cinesalve.app` to Applications. The app is not yet
-signed with an Apple developer certificate, so the first launch needs a
-right-click then **Open** rather than a double click. Once only.
+Download the zip, unzip, drag `Cinesalve.app` to Applications.
+
+It is not yet signed with an Apple developer certificate, so macOS refuses it the
+first time. One step, once:
+
+1. Double-click Cinesalve. macOS says it cannot be opened.
+2. Open **System Settings → Privacy & Security**, scroll to the bottom, click
+   **Open Anyway** next to Cinesalve.
+3. Confirm.
+
+Control-clicking and choosing Open does *not* work: Apple removed that shortcut
+in macOS 15. The terminal equivalent is one line:
+
+```
+xattr -dr com.apple.quarantine /Applications/Cinesalve.app
+```
 
 macOS 13 or later. Universal binary, Apple silicon and Intel.
 
