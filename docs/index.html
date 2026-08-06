@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cinesalve — recover a recording your camera never finished</title>
+<meta name="description" content="A Mac app that rebuilds corrupt and truncated MP4 and MOV files from a dead battery, a pulled card or a crashed camera. Watch your footage play again before you pay anything.">
+<meta property="og:title" content="Cinesalve — recover a recording your camera never finished">
+<meta property="og:description" content="Watch your footage play again before you pay anything. Nothing is uploaded.">
+<meta property="og:type" content="website">
+<style>
+  :root {
+    --ink: #0d0d0f;
+    --paper: #fbfbfa;
+    --muted: #6b6b73;
+    --line: #e3e3e0;
+    --accent: #1f5f4b;
+    --accent-ink: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #ececee;
+      --paper: #111113;
+      --muted: #97979f;
+      --line: #2a2a2e;
+      --accent: #4fa98a;
+      --accent-ink: #08120f;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font: 400 17px/1.65 ui-sans-serif, -apple-system, "SF Pro Text", Inter, system-ui, sans-serif;
+    letter-spacing: -0.005em;
+  }
+  .wrap { max-width: 660px; margin: 0 auto; padding: 0 24px; }
+  header { padding: 56px 0 0; }
+  .mark {
+    font: 600 15px/1 ui-rounded, -apple-system, system-ui, sans-serif;
+    letter-spacing: -0.01em;
+  }
+  .mark span { color: var(--muted); font-weight: 400; margin-left: 8px; }
+  h1 {
+    font-size: clamp(30px, 5.6vw, 42px);
+    line-height: 1.12;
+    letter-spacing: -0.028em;
+    font-weight: 600;
+    margin: 40px 0 0;
+  }
+  .lede { font-size: 18px; color: var(--muted); margin: 18px 0 0; }
+  h2 {
+    font-size: 19px; font-weight: 600; letter-spacing: -0.015em;
+    margin: 56px 0 14px;
+  }
+  p { margin: 14px 0; }
+  a { color: inherit; }
+  .cta { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin: 32px 0 0; }
+  .button {
+    display: inline-block; background: var(--accent); color: var(--accent-ink);
+    text-decoration: none; font-size: 15px; font-weight: 550;
+    padding: 12px 20px; border-radius: 8px;
+  }
+  .button.secondary {
+    background: transparent; color: var(--ink);
+    border: 1px solid var(--line); font-weight: 450;
+  }
+  .price { font-size: 14px; color: var(--muted); }
+  .note { font-size: 14px; color: var(--muted); }
+  .rule { border: 0; border-top: 1px solid var(--line); margin: 56px 0 0; }
+  .steps { margin: 22px 0 0; padding: 0; list-style: none; counter-reset: step; }
+  .steps li {
+    counter-increment: step; position: relative;
+    padding: 0 0 0 34px; margin: 0 0 16px;
+  }
+  .steps li::before {
+    content: counter(step); position: absolute; left: 0; top: 1px;
+    width: 21px; height: 21px; border-radius: 50%;
+    background: var(--line); color: var(--ink);
+    font-size: 11px; font-weight: 600;
+    display: grid; place-items: center;
+  }
+  table { border-collapse: collapse; width: 100%; font-size: 15px; margin: 18px 0 0; }
+  th, td { text-align: left; padding: 9px 10px 9px 0; border-bottom: 1px solid var(--line); }
+  th { font-weight: 550; color: var(--muted); font-size: 13px; }
+  td.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .scroll { overflow-x: auto; }
+  .quote {
+    border-left: 2px solid var(--line); padding: 2px 0 2px 16px;
+    margin: 18px 0; color: var(--muted); font-size: 15px;
+  }
+  .quote cite { display: block; font-style: normal; font-size: 13px; margin-top: 6px; opacity: 0.8; }
+  footer { padding: 48px 0 64px; font-size: 14px; color: var(--muted); }
+  .plain { font-size: 15px; }
+  .plain strong { font-weight: 600; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="mark">Cinesalve<span>footage recovery for macOS</span></div>
+
+  <h1>Your camera stopped mid&#8209;record. The file will not open.</h1>
+  <p class="lede">
+    The footage is still in there. A flat battery, a pulled card or a crash leaves
+    every frame written to disk and only the index missing, and without that index
+    no player will touch the file. Cinesalve rebuilds the index.
+  </p>
+
+  <div class="cta">
+    <a class="button" href="#download">Download for macOS</a>
+    <span class="price">Recovery is free to watch. A licence to save the file is $69, once.</span>
+  </div>
+</header>
+
+<hr class="rule">
+
+<h2>Watch it work before you pay anything</h2>
+<p>
+  Cinesalve recovers your footage and plays it back in full, at no cost and with no
+  account. You only need a licence when you want to save the repaired file. If it
+  cannot recover your clip you will see that in about a minute, and you will not have
+  spent anything finding out.
+</p>
+<p class="note">
+  That is deliberate. The complaint that runs through every review of this category is
+  paying up front and receiving nothing back.
+</p>
+<div class="quote">
+  &ldquo;Can I get the refund if it doesn&rsquo;t work? Unfortunately, once purchased, our
+  service is non&#8209;refundable.&rdquo;
+  <cite>A competing repair service, in its own published FAQ</cite>
+</div>
+
+<h2>How it works</h2>
+<ol class="steps">
+  <li>Drop in the clip that will not play.</li>
+  <li>Drop in any clip from the same camera, same settings, that does play. Cinesalve
+      reads how your camera writes a file, so it can rebuild the damaged one to match.</li>
+  <li>Watch the recovered footage. Save it when you are happy.</li>
+</ol>
+<p class="note">
+  Nothing is uploaded. Your footage never leaves your Mac, there is no account, and the
+  app works with the network switched off. Damaged recordings are often the only copy of
+  something private, and they should not have to travel to a stranger&rsquo;s server to be read.
+</p>
+
+<h2>How exact is the recovery</h2>
+<p>
+  Exact, on everything measured so far. The test compares a repaired file against the
+  original it was cut from and counts a frame as recovered only when it lands at the
+  same position and the same size the camera wrote. A frame decoded from a repaired
+  file is byte&#8209;for&#8209;byte identical to the same frame in the original.
+</p>
+<div class="scroll">
+<table>
+  <thead>
+    <tr><th>Test case</th><th>Video frames exact</th><th>Audio frames exact</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>H.264 720p 30fps, cut at 30%</td><td class="num">90 / 90 &nbsp;100%</td><td class="num">98.5%</td></tr>
+    <tr><td>H.264 720p 30fps, cut at 50%</td><td class="num">149 / 149 &nbsp;100%</td><td class="num">99.1%</td></tr>
+    <tr><td>H.264 720p 30fps, cut at 68%</td><td class="num">203 / 203 &nbsp;100%</td><td class="num">99.3%</td></tr>
+    <tr><td>H.264 720p 30fps, cut at 90%</td><td class="num">269 / 269 &nbsp;100%</td><td class="num">99.5%</td></tr>
+    <tr><td>H.264 1080p 24fps, cut at 55%</td><td class="num">107 / 107 &nbsp;100%</td><td class="num">99.0%</td></tr>
+    <tr><td>H.264 480p 60fps, cut at 45%</td><td class="num">216 / 216 &nbsp;100%</td><td class="num">100%</td></tr>
+    <tr><td>H.264 without audio, cut at 60%</td><td class="num">143 / 143 &nbsp;100%</td><td class="num">&mdash;</td></tr>
+    <tr><td>HEVC 720p 30fps, cut at 60%</td><td class="num">146 / 146 &nbsp;100%</td><td class="num">98.6%</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>What it does not do yet</h2>
+<p class="plain">
+  <strong>Every figure above comes from files encoded on a computer, not from a real
+  camera.</strong> Cinesalve has not yet been tested against footage from a DJI, GoPro,
+  Sony, Canon or iPhone, and those write containers with quirks of their own. If you
+  have a damaged clip from real hardware, send it and you will get a straight answer
+  about whether it can be recovered, before any money changes hands.
+</p>
+<p class="plain">
+  It handles H.264 and HEVC video with AAC audio in MP4 and MOV containers, which is
+  what consumer and prosumer cameras record. It does not handle ProRes, MXF or AVI. It
+  repairs recordings that were interrupted, which is the common failure; it cannot
+  invent footage that was never written to the card.
+</p>
+<p class="plain">
+  About one audio frame in a hundred is still placed imperfectly, which can leave a
+  faint tick. Video is exact.
+</p>
+
+<h2 id="download">Getting it</h2>
+<p>
+  Cinesalve is a single Mac app, macOS 13 or later, Apple silicon and Intel.
+</p>
+<p class="note">
+  The app is not yet signed with an Apple developer certificate, so the first time you
+  open it macOS will ask. Right&#8209;click the app, choose Open, then confirm. You only
+  do this once.
+</p>
+<div class="cta">
+  <a class="button" href="https://github.com/LucideLarp/cinesalve/releases/latest">Download Cinesalve 1.0</a>
+  <a class="button secondary" href="mailto:cinesalve@proton.me?subject=Damaged%20clip">Send a damaged file first</a>
+</div>
+
+<h2>Licence</h2>
+<p>
+  One licence covers every Mac you own, for good. Buy it when the recovered footage is
+  on your screen and you have decided it was worth it.
+</p>
+<div class="cta">
+  <a class="button" href="https://buy.stripe.com/bJebJ1cZp9VldqcgNSa7C05">Buy a licence &mdash; $69</a>
+  <span class="price">Your key is emailed to the address you pay with.</span>
+</div>
+
+<footer>
+  Cinesalve is a one&#8209;time purchase. No subscription, no account, no telemetry.
+</footer>
+
+</div>
+</body>
+</html>
