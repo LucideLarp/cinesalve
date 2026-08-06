@@ -18,7 +18,14 @@ camera writes, then rebuilds the index of the damaged one.
 [Download](https://github.com/LucideLarp/cinesalve/releases/latest) ·
 [cinesalve@proton.me](mailto:cinesalve@proton.me)
 
-**Not sure your file is recoverable?**
+**Not sure your file is recoverable? Check it free, in your browser.**
+[cinesalve.honorboxx.workers.dev/check](https://cinesalve.honorboxx.workers.dev/check)
+tells you whether the footage is still there. Nothing is uploaded, it reads only
+the first and last megabyte, and it works on any computer including Windows even
+though the app itself is Mac only. Give it a working clip from the same camera
+and it counts the surviving frames exactly.
+
+**More on the failure itself**
 [What "moov atom not found" means and how to get the footage back](https://cinesalve.honorboxx.workers.dev/moov-atom-not-found)
 shows how to check in one command, why copying an index from another file cannot
 work, and what your options are including the free ones.
