@@ -86,6 +86,17 @@ write timecode and telemetry into the same block as the picture, and Cinesalve
 recovers the picture from those rather than writing bytes it cannot verify into
 your recording.
 
+## If it does not recover your footage
+
+You get your money back. Email [cinesalve@proton.me](mailto:cinesalve@proton.me)
+with the licence key and a sentence about what happened, and the refund goes
+through the same day.
+
+That is an easy promise because you know the answer before you buy: the
+[free checker](https://cinesalve.honorboxx.workers.dev/check) reads your own file
+and reports how many frames are recoverable. Nobody should pay to find out
+whether their footage survived.
+
 ## Installing
 
 Download the zip, unzip, drag `Cinesalve.app` to Applications. macOS 13 or later,
