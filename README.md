@@ -26,8 +26,10 @@ reads your damaged file and reports exactly how many frames are recoverable and
 how many seconds that is. Nothing is uploaded — it reads only the first and last
 megabyte — and it runs on any computer, Windows included.
 
-**More on the failure itself:**
-[What "moov atom not found" means and how to get the footage back](https://cinesalve.honorboxx.workers.dev/moov-atom-not-found).
+**More on the failure itself**
+
+- [What "moov atom not found" means and how to get the footage back](docs/moov-atom-not-found.md)
+- [Repairing an MP4 without a reference file](docs/repair-mp4-without-reference-file.md)
 
 ## Recovered from the damaged file alone
 
