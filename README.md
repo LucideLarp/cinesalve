@@ -12,7 +12,8 @@ file. Cinesalve rebuilds the index and the recording plays again.
   same size the camera originally wrote, and decodes byte-identical to the
   original.
 - **GoPro needs nothing but the broken file.** Those recordings carry their own
-  codec configuration, and Cinesalve reads it from the damaged file itself.
+  codec configuration, in the H.264 and the HEVC modes the range records, and
+  Cinesalve reads it from the damaged file itself.
 - **Nothing is uploaded.** Footage never leaves your Mac. No account, no
   telemetry, works offline.
 - **One-time $69.** Every Mac you own, for good. No subscription.
@@ -52,6 +53,8 @@ result end to end.
 | GoPro Fusion | 160 / 160 | 100% | 0 |
 | GoPro MAX | 175 / 175 | 100% | 0 |
 | GoPro HERO6 with BLE | 181 / 181 | 100% | 0 |
+| GoPro HEVC, 1080p 59.94fps | 217 / 217 | 100% | 0 |
+| GoPro HEVC, second take | 89 / 89 | 100% | 0 |
 
 ## Recovered with a clip from the same camera
 

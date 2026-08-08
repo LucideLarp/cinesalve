@@ -82,8 +82,9 @@ tool that can do this asks for one.
 
 ### Cinesalve
 
-A Mac app that does the same job. H.264 GoPro recordings carry their own codec
-configuration, so you give it the clip that will not open and nothing else.
+A Mac app that does the same job. GoPro recordings carry their own codec
+configuration, in the H.264 and the HEVC modes alike, so you give it the clip
+that will not open and nothing else.
 
 Every recovered frame lands at the byte offset and size the camera originally
 wrote, measured that way against footage straight off real GoPro cameras:
