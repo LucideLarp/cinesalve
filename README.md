@@ -30,6 +30,9 @@ megabyte — and it runs on any computer, Windows included.
 
 - [What "moov atom not found" means and how to get the footage back](docs/moov-atom-not-found.md)
 - [Repairing an MP4 without a reference file](docs/repair-mp4-without-reference-file.md)
+- [Your GoPro file will not play](docs/gopro-video-wont-play.md)
+- [OBS crashed and the recording will not play](docs/obs-recording-wont-play.md)
+- [Getting untrunc working on a Mac](docs/untrunc-on-mac.md)
 
 ## Recovered from the damaged file alone
 
