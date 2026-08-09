@@ -66,6 +66,7 @@ on the spot.
 | real camera | frames recovered | exact |
 |---|---|---|
 | DJI Mavic 3 Pro, 4K | 722 / 722 | 100% |
+| Canon EOS 5D Mark II | 208 / 208 | 100% |
 | QuickTime, Apple's own muxer | 420 / 420 | 100% |
 | GoPro HERO6, cut at 85% | 603 / 603 | 100% |
 
