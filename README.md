@@ -67,6 +67,7 @@ on the spot.
 | real camera | frames recovered | exact |
 |---|---|---|
 | DJI Mavic 3 Pro, 4K | 722 / 722 | 100% |
+| iPhone 11, HEVC | 484 / 484 | 100% |
 | Canon EOS 5D Mark II | 208 / 208 | 100% |
 | QuickTime, Apple's own muxer | 420 / 420 | 100% |
 | 1080p consumer camera | 1356 / 1356 | 100% |

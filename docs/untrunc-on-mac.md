@@ -83,6 +83,7 @@ by byte position and size:
 | DJI Mavic 3 Pro, 4K 59.94fps | 722 / 722 | 100% |
 | GoPro HERO6, separate take as reference | 425 / 425 | 100% |
 | GoPro HERO5 / 7 / 8 / Karma / Fusion / MAX | all | 100% |
+| iPhone 11, HEVC | 484 / 484 | 100% |
 | Canon EOS 5D Mark II | 208 / 208 | 100% |
 | QuickTime, Apple's own muxer | 420 / 420 | 100% |
 

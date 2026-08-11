@@ -108,6 +108,7 @@ the original by byte position and size.
 | GoPro HEVC, as the newer cameras record | 217 / 217 | 100% |
 | DJI Mavic 3 Pro, 4K | 722 / 722 | 100% |
 | DJI drone, another clip from the same flight as the reference | 116 / 116 | 100% |
+| iPhone 11, HEVC | 484 / 484 | 100% |
 | Canon EOS 5D Mark II, a DSLR | 208 / 208 | 100% |
 | QuickTime, Apple's own muxer | 420 / 420 | 100% |
 
