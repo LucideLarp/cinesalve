@@ -50,13 +50,38 @@ millions of positions manufactures thousands of times over — in testing it
 reported a 656×16 picture in a QuickTime file carrying no parameter sets at all.
 Four bytes agreeing is roughly 1 in 4 billion.
 
+## An iPhone answers a different way
+
+A phone strips its parameter sets like any other Apple muxer, so by the rule
+above it ought to need a reference clip. It does not, because it writes
+something better and for its own reasons: a phone cannot know it is about to be
+dropped. About ten seconds into a take, iOS lays a **complete index** into the
+middle of the recording itself, filed under a box type players step over, and
+extends it as recording continues. A take that ends normally appends the real
+index and abandons that scaffold; a take that ends in a drained battery leaves
+it behind.
+
+That is the camera's own account of what it wrote and where, so nothing is
+searched for and nothing is inferred — and unlike a scan, the sound comes back
+with the picture.
+
+| iPhone 11, no reference clip | Frames | Audio | Decode errors |
+|---|---|---|---|
+| take cut at 50% | 297 / 297 | 431 / 431 | 0 |
+| take cut at 60% | 297 / 297 | 431 / 431 | 0 |
+| take cut at 85% | 596 / 596 | 862 / 862 | 0 |
+| second take, cut at 85% | 300 / 300 | 431 / 431 | 0 |
+
+A take that ended before its first checkpoint has nothing to read, and is
+refused with a request for a reference clip rather than guessed at.
+
 ## Which files genuinely need a reference
 
 Some muxers strip the parameter sets out of the stream because the container is
 supposed to hold them. Files from Apple's QuickTime muxer and some drones are
-like this, and no search will find what was never written. For those a reference
-clip is genuinely required, and any tool claiming otherwise is guessing at your
-footage.
+like this, and no search will find what was never written. Where there is no
+camera index either, a reference clip is genuinely required, and any tool
+offering a configuration it cannot read is guessing at your footage.
 
 Any clip from the same camera in the same mode will do. A few seconds recorded
 right now is enough.

@@ -58,11 +58,29 @@ result end to end.
 | GoPro HEVC, 1080p 59.94fps | 217 / 217 | 100% | 0 |
 | GoPro HEVC, second take | 89 / 89 | 100% | 0 |
 
+An iPhone gets there by a different route and keeps its sound. About ten seconds
+into a take, iOS writes a complete index into the middle of the recording so that
+a phone dropped mid-shot still has one; a take longer than that is recovered from
+its own account of itself, with nothing searched for and nothing inferred.
+
+| iPhone 11, no reference clip | frames | audio | decode errors |
+|---|---|---|---|
+| take cut at 50% | 297 / 297 | 431 / 431 | 0 |
+| take cut at 60% | 297 / 297 | 431 / 431 | 0 |
+| take cut at 85% | 596 / 596 | 862 / 862 | 0 |
+| second take, cut at 85% | 300 / 300 | 431 / 431 | 0 |
+
+An index stops at the last checkpoint the phone managed to write, so a reference
+clip still recovers more where one is available: the same take cut at 60% gives
+297 frames from the index alone and 484 with a clip. Cinesalve reports which
+route it took and how much footage sits past the checkpoint, so the choice is
+yours rather than silently made for you.
+
 ## Recovered with a clip from the same camera
 
-Recordings that do not state their own configuration are detected automatically
-and read it from any working clip you have, which can be a few seconds recorded
-on the spot.
+Recordings that state neither their own configuration nor an index are detected
+automatically and read it from any working clip you have, which can be a few
+seconds recorded on the spot.
 
 | real camera | frames recovered | exact |
 |---|---|---|
