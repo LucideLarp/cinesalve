@@ -34,6 +34,7 @@ megabyte — and it runs on any computer, Windows included.
 - [Repairing an MP4 without a reference file](docs/repair-mp4-without-reference-file.md)
 - [Your GoPro file will not play](docs/gopro-video-wont-play.md)
 - [Your Canon file will not play](docs/canon-video-wont-play.md)
+- [Your iPhone video will not play](docs/iphone-video-wont-play.md)
 - [OBS crashed and the recording will not play](docs/obs-recording-wont-play.md)
 - [Getting untrunc working on a Mac](docs/untrunc-on-mac.md)
 
