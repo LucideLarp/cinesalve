@@ -81,16 +81,20 @@ yours rather than silently made for you.
 
 Recordings that state neither their own configuration nor an index are detected
 automatically and read it from any working clip you have, which can be a few
-seconds recorded on the spot.
+seconds recorded on the spot. The last column says what each measurement here
+was made against: a separate take from the same camera, which is the situation
+you would actually be in, or the recording's own untruncated self where only
+one camera-original clip of that make is published anywhere to pair with.
 
-| real camera | frames recovered | exact |
-|---|---|---|
-| DJI Mavic 3 Pro, 4K | 722 / 722 | 100% |
-| iPhone 11, HEVC | 484 / 484 | 100% |
-| Canon EOS 5D Mark II | 208 / 208 | 100% |
-| QuickTime, Apple's own muxer | 420 / 420 | 100% |
-| 1080p consumer camera | 1356 / 1356 | 100% |
-| GoPro HERO6, cut at 85% | 603 / 603 | 100% |
+| real camera | frames recovered | exact | reference |
+|---|---|---|---|
+| Sony FDR-AX100E, 4K | 1488 / 1488 | 100% | its own full recording |
+| DJI Mavic 3 Pro, 4K | 722 / 722 | 100% | a different take |
+| iPhone 11, HEVC | 484 / 484 | 100% | a different take |
+| Canon EOS 5D Mark II | 208 / 208 | 100% | a different take |
+| QuickTime, Apple's own muxer | 420 / 420 | 100% | a different take |
+| 1080p consumer camera | 1356 / 1356 | 100% | a different take |
+| GoPro HERO6, cut at 85% | 603 / 603 | 100% | a different take |
 
 ## Synthetic suite
 

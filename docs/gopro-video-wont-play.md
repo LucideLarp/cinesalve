@@ -93,10 +93,10 @@ wrote, measured that way against footage straight off real GoPro cameras:
 |---|---|---|
 | HERO6, separate take as the reference | 425 / 425 | 100% |
 | HERO5 | 456 / 456 | 100% |
-| HERO7 | 210 / 210 | 100% |
-| HERO8 | 210 / 210 | 100% |
+| HERO7 | 170 / 170 | 100% |
+| HERO8 | 323 / 323 | 100% |
 | Karma | 200 / 200 | 100% |
-| Fusion | 248 / 248 | 100% |
+| Fusion | 160 / 160 | 100% |
 | MAX | 175 / 175 | 100% |
 
 Nothing is uploaded and the recovery runs offline. $69 once.
