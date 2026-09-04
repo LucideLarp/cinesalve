@@ -118,12 +118,12 @@ makes keep that configuration in the part of the file the power cut took with
 it, so they need a healthy clip from the same camera, which the app asks for
 rather than guessing.
 
-On the Apple-muxed recordings the sound comes back too, roughly nine frames in
-ten landing correctly. Action cameras and drones interleave timecode and
-telemetry into the same block as the picture, and those bytes cannot be told
-from audio confidently enough to place, so on those the picture is returned and
-the sound is left out rather than writing bytes that cannot be verified into
-your recording. Picture is exact either way.
+The sound usually comes back too: on Apple-muxed recordings, on an iPhone, on a
+consumer camcorder and on GoPro footage, most of it lands where the camera wrote
+it. Where a camera interleaves bytes the engine cannot attribute to a track, as
+a Canon, a Sony and the drone footage all do, the picture is returned and the
+sound is left out rather than writing bytes that cannot be verified into your
+recording. Picture is exact either way.
 
 Nothing is uploaded and the recovery runs offline. $69 once.
 

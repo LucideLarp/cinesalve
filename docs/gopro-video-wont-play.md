@@ -101,11 +101,12 @@ wrote, measured that way against footage straight off real GoPro cameras:
 
 Nothing is uploaded and the recovery runs offline. $69 once.
 
-On GoPro footage the sound is not recovered. These cameras write timecode and
-telemetry into the same block as the picture, and those bytes cannot be told
-apart from audio confidently enough to place it. Rather than write noise into
-your recording, Cinesalve returns the video and says so. If the audio matters
-more than the picture, that is worth knowing before you spend anything.
+The sound comes back too. A GoPro writes timecode and telemetry into the same
+block as the picture, which is why the audio used to be left out. That filler
+turns out to bracket every audio frame at a fixed 16 byte stride, so the
+boundaries are arithmetic rather than a guess. Across the eleven GoPro
+recordings in the suite, between 95% and 100% of the audio lands exactly where
+the camera wrote it.
 
 ## If none of it works
 
