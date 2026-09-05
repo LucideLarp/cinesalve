@@ -29,15 +29,18 @@ megabyte — and it runs on any computer, Windows included.
 
 **More on the failure itself**
 
+- [How to fix a corrupted video file on a Mac](docs/fix-corrupted-video-file-mac.md)
 - [The power went and now the video will not play](docs/video-wont-play-after-power-loss.md)
 - [What "moov atom not found" means and how to get the footage back](docs/moov-atom-not-found.md)
 - [Repairing an MP4 without a reference file](docs/repair-mp4-without-reference-file.md)
 - [Your GoPro file will not play](docs/gopro-video-wont-play.md)
+- [Your DJI file will not play](docs/dji-video-wont-play.md)
 - [Your Canon file will not play](docs/canon-video-wont-play.md)
 - [Your iPhone video will not play](docs/iphone-video-wont-play.md)
 - [Your Sony recording will not play](docs/sony-video-wont-play.md)
 - [OBS crashed and the recording will not play](docs/obs-recording-wont-play.md)
 - [Getting untrunc working on a Mac](docs/untrunc-on-mac.md)
+- [My test suite was lying to me](docs/my-tests-were-lying.md)
 
 ## Recovered from the damaged file alone
 
