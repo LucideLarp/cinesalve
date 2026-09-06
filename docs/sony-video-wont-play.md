@@ -107,12 +107,13 @@ clip from the same camera that does, and it rebuilds the index so the file plays
 again. Nothing is uploaded; it runs entirely on your Mac. **$69 once.**
 
 Measured against a real Sony FDR-AX100E recording, 4K at 25fps, camera original
-and cut mid-take. Every recovered frame is compared against the original by byte
-position and size:
+and cut mid-take at two points, 55% and 85% of the way through. Every recovered
+frame is compared against the original by byte position and size:
 
 | Real Sony footage | Frames recovered | Exact | Reference |
 |---|---|---|---|
-| Sony FDR-AX100E, 2160p 25fps, cut mid-take | 1488 / 1488 | 100% | its own full recording |
+| Sony FDR-AX100E, 2160p 25fps, cut at 55% | 1488 / 1488 | 100% | its own full recording |
+| Sony FDR-AX100E, 2160p 25fps, cut at 85% | 2292 / 2292 | 100% | its own full recording |
 
 Every frame lands at the exact offset and size the camera wrote. That last column
 is there because one camera original AX100 clip is published anywhere to test

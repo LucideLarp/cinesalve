@@ -93,6 +93,7 @@ one camera-original clip of that make is published anywhere to pair with.
 | real camera | frames recovered | exact | reference |
 |---|---|---|---|
 | Sony FDR-AX100E, 4K | 1488 / 1488 | 100% | its own full recording |
+| Sony FDR-AX100E, cut at 85% | 2292 / 2292 | 100% | its own full recording |
 | DJI Mavic 3 Pro, 4K | 722 / 722 | 100% | a different take |
 | iPhone 11, HEVC | 484 / 484 | 100% | a different take |
 | Canon EOS 5D Mark II | 208 / 208 | 100% | a different take |
