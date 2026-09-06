@@ -118,10 +118,13 @@ Every frame lands at the exact offset and size the camera wrote. That last colum
 is there because one camera original AX100 clip is published anywhere to test
 against, so the measurement pairs the damaged file with its own untruncated self
 rather than with a separate take. This camera records *uncompressed* sound rather
-than the compressed kind, interleaved between the pictures alongside a timecode
-track, and the picture is what is reassembled today, so the recovered file is
-silent. Other Sony bodies have not been through the suite, and a clip from one is
-genuinely welcome.
+than the compressed kind, interleaved between the pictures beside a timecode
+block, and the sound comes back with the picture: the timecode block is a fixed
+size for every picture that follows it, so once the pictures are placed exactly,
+what remains between two of them is sound, and on the recording above every
+sample the camera wrote before the cut lands where the camera wrote it. Other
+Sony bodies have not been through the suite, and a clip from one is genuinely
+welcome.
 
 ## If none of it works
 

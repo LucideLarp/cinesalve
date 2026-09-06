@@ -120,10 +120,11 @@ rather than guessing.
 
 The sound usually comes back too: on Apple-muxed recordings, on an iPhone, on a
 consumer camcorder and on GoPro footage, most of it lands where the camera wrote
-it. Where a camera interleaves bytes the engine cannot attribute to a track, as
-a Canon, a Sony and the drone footage all do, the picture is returned and the
-sound is left out rather than writing bytes that cannot be verified into your
-recording. Picture is exact either way.
+it, and a Canon EOS's and a Sony camcorder's uncompressed sound come back whole,
+placed from the pictures by arithmetic. Where a camera interleaves bytes the
+engine cannot attribute to a track, the picture is returned and the sound is
+left out rather than writing bytes that cannot be verified into your recording.
+Picture is exact either way.
 
 Nothing is uploaded and the recovery runs offline. $69 once.
 
