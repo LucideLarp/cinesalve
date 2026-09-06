@@ -88,10 +88,11 @@ original by byte position and size:
 
 Every frame lands at the exact offset and size the camera wrote, and the repaired
 file decodes end to end without a single error. This camera records
-*uncompressed* sound rather than the compressed kind, interleaved between the
-pictures, and the picture is what is reassembled today, so the recovered file is
-silent. Other Canon bodies have not been through the suite, and a clip from one
-is genuinely welcome.
+*uncompressed* sound rather than the compressed kind, one second of it after
+every thirty pictures, and that comes back with the picture: every sample lands
+where the camera wrote it, because once the pictures are placed exactly,
+everything between them is sound. Other Canon bodies have not been through the
+suite, and a clip from one is genuinely welcome.
 
 ## If none of it works
 

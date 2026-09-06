@@ -120,8 +120,9 @@ Picture, exactly, on H.264 and HEVC in MP4 and MOV — what consumer and prosume
 cameras record.
 
 Sound comes back on most cameras. On GoPro footage between 95% and 100% of it
-lands exactly where the camera wrote it, with an iPhone, an Apple-muxed recording
-and a consumer camcorder close behind. Where a camera interleaves bytes that
+lands exactly where the camera wrote it, a Canon EOS's uncompressed sound comes
+back whole, and an iPhone, an Apple-muxed recording and a consumer camcorder are
+close behind. Where a camera interleaves bytes that
 cannot be attributed to any track, Cinesalve recovers the picture and says it
 left the sound out rather than writing bytes it cannot verify into your
 recording.
