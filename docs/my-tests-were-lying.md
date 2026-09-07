@@ -126,7 +126,7 @@ HERO8  self                       210/210     100%  100% placed  0
 Karma  self                       200/200     100%  100% placed  0
 Fusion self                       248/248     100%  100% placed  0
 MAX    self                       175/175     100%  100% placed  0
-QuickTime paired                  420/420     100%  92% placed  130
+QuickTime paired                  420/420     100%  100% placed  0
 ```
 
 Every GoPro row there used to say *omitted*, and this note used to explain why.

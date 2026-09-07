@@ -121,13 +121,13 @@ Picture, exactly, on H.264 and HEVC in MP4 and MOV — what consumer and prosume
 cameras record.
 
 Sound comes back on every camera in the suite that recorded any. On a GoPro, a
-Canon EOS, a Sony camcorder and a consumer camcorder it comes back whole, every
-frame at the position the camera wrote it: a GoPro names the size of every
-sample in the bytes ahead of it, the Canon and the Sony write uncompressed
-sound that is placed from the pictures by arithmetic rather than searched for,
-and the consumer camcorder's compressed sound is read frame by frame, with the
-system's own decoder saying where each frame ends. An iPhone and an
-Apple-muxed recording are close behind. On a camera it
+Canon EOS, a Sony camcorder, a consumer camcorder and a recording written by
+Apple's own muxer it comes back whole, every frame at the position the camera
+wrote it: a GoPro names the size of every sample in the bytes ahead of it, the
+Canon and the Sony write uncompressed sound that is placed from the pictures by
+arithmetic rather than searched for, and the camcorder's and the Apple-muxed
+recording's compressed sound is read frame by frame, with the system's own
+decoder saying where each frame ends. An iPhone is close behind. On a camera it
 has not measured, where bytes between pictures cannot be attributed to any
 track, Cinesalve recovers the picture and says it left the sound out rather
 than writing bytes it cannot verify into your recording.
