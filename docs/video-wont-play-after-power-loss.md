@@ -118,10 +118,12 @@ makes keep that configuration in the part of the file the power cut took with
 it, so they need a healthy clip from the same camera, which the app asks for
 rather than guessing.
 
-The sound usually comes back too: on Apple-muxed recordings, on an iPhone, on a
-consumer camcorder and on GoPro footage, most of it lands where the camera wrote
-it, and a Canon EOS's and a Sony camcorder's uncompressed sound come back whole,
-placed from the pictures by arithmetic. Where a camera interleaves bytes the
+The sound usually comes back too: on GoPro footage, a Canon EOS, a Sony
+camcorder and a consumer camcorder it comes back whole, every frame at its own
+position, read at the size the camera declared, placed from the pictures by
+arithmetic, or read frame by frame with the system's own decoder; on
+Apple-muxed recordings and on an iPhone most of it lands where the camera wrote
+it. Where a camera interleaves bytes the
 engine cannot attribute to a track, the picture is returned and the sound is
 left out rather than writing bytes that cannot be verified into your recording.
 Picture is exact either way.

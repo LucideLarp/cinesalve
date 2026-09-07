@@ -20,14 +20,14 @@ By that measure the engine was perfect:
 
 ```
 case                                  video exact      audio exact  decode errs
-h264 1280x720 30fps  cut 30%         90/90 100.0%    129/131 98.5%            5
-h264 1280x720 30fps  cut 50%       149/149 100.0%    212/214 99.1%            5
-h264 1280x720 30fps  cut 68%       203/203 100.0%    291/293 99.3%            5
-h264 1280x720 30fps  cut 90%       269/269 100.0%    386/388 99.5%            5
-h264 1920x1080 24fps cut 55%       107/107 100.0%    190/192 99.0%            5
+h264 1280x720 30fps  cut 30%         90/90 100.0%   129/129 100.0%            0
+h264 1280x720 30fps  cut 50%       149/149 100.0%   214/214 100.0%            0
+h264 1280x720 30fps  cut 68%       203/203 100.0%   291/291 100.0%            0
+h264 1280x720 30fps  cut 90%       269/269 100.0%   386/386 100.0%            0
+h264 1920x1080 24fps cut 55%       107/107 100.0%   192/192 100.0%            0
 h264 640x480 60fps   cut 45%       217/217 100.0%   157/157 100.0%            0
 h264 no audio        cut 60%       144/144 100.0%              n/a            0
-hevc 1280x720 30fps  cut 60%       146/146 100.0%    205/208 98.6%            7
+hevc 1280x720 30fps  cut 60%       146/146 100.0%   207/207 100.0%            0
 ```
 
 Different codecs, resolutions, frame rates and cut points. A frame decoded from
