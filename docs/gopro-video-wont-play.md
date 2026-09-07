@@ -101,12 +101,15 @@ wrote, measured that way against footage straight off real GoPro cameras:
 
 Nothing is uploaded and the recovery runs offline. $69 once.
 
-The sound comes back too. A GoPro writes timecode and telemetry into the same
-block as the picture, which is why the audio used to be left out. That filler
-turns out to bracket every audio frame at a fixed 16 byte stride, so the
-boundaries are arithmetic rather than a guess. Across the eleven GoPro
-recordings in the suite, between 95% and 100% of the audio lands exactly where
-the camera wrote it.
+The sound comes back whole. A GoPro writes sixteen bytes ahead of every sample
+it records: two letters, the sample's type, and its size. So once the pictures
+are placed, the sound between them is not searched for at all. Cinesalve reads
+each frame at the size the camera declared, steps over the timecode and
+telemetry the same way, and writes nothing the camera did not name. Measured
+on twelve GoPro recordings, HERO5 to MAX and HEVC included, the declared size
+matched the camera's own index for every sound frame, and on every GoPro
+recording in the suite every frame the camera wrote before the cut comes back
+at its own position, with zero decode errors.
 
 ## If none of it works
 

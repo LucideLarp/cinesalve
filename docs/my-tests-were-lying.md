@@ -118,14 +118,14 @@ numbers immediately.
 
 ```
 case                      video recovered    exact       audio  decode
-HERO6  paired take                425/425     100%  98% placed  30
-HERO6  paired, 85%                603/603     100%  98% placed  43
-HERO5  self                       456/456     100%  98% placed  42
-HERO7  self                       210/210     100%  99% placed  5
-HERO8  self                       210/210     100%  99% placed  7
-Karma  self                       200/200     100%  99% placed  9
-Fusion self                       248/248     100%  100% placed  3
-MAX    self                       175/175     100%  100% placed  5
+HERO6  paired take                425/425     100%  100% placed  0
+HERO6  paired, 85%                603/603     100%  100% placed  0
+HERO5  self                       456/456     100%  100% placed  0
+HERO7  self                       210/210     100%  100% placed  0
+HERO8  self                       210/210     100%  100% placed  0
+Karma  self                       200/200     100%  100% placed  0
+Fusion self                       248/248     100%  100% placed  0
+MAX    self                       175/175     100%  100% placed  0
 QuickTime paired                  420/420     100%  92% placed  130
 ```
 
