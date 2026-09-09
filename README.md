@@ -94,6 +94,8 @@ one camera-original clip of that make is published anywhere to pair with.
 |---|---|---|---|
 | Sony FDR-AX100E, 4K | 1488 / 1488 | 100% | its own full recording |
 | Sony FDR-AX100E, cut at 85% | 2292 / 2292 | 100% | its own full recording |
+| Google Pixel 7 Pro, 1080p | 728 / 728 | 100% | its own full recording |
+| Google Pixel 7 Pro, cut at 85% | 1051 / 1051 | 100% | its own full recording |
 | DJI Mavic 3 Pro, 4K | 722 / 722 | 100% | a different take |
 | iPhone 11, HEVC | 484 / 484 | 100% | a different take |
 | Canon EOS 5D Mark II | 208 / 208 | 100% | a different take |
@@ -122,12 +124,13 @@ cameras record.
 
 Sound comes back on every camera in the suite that recorded any. On a GoPro, a
 Canon EOS, a Sony camcorder, a consumer camcorder, a recording written by
-Apple's own muxer and an iPhone it comes back whole, every frame at the position
-the camera wrote it: a GoPro names the size of every sample in the bytes ahead
-of it, the Canon and the Sony write uncompressed sound that is placed from the
-pictures by arithmetic rather than searched for, and the camcorder's, the
-Apple-muxed recording's and the iPhone's compressed sound is read frame by
-frame, with the system's own decoder saying where each frame ends. The metadata
+Apple's own muxer, an iPhone and a Google Pixel it comes back whole, every frame
+at the position the camera wrote it: a GoPro names the size of every sample in
+the bytes ahead of it, the Canon and the Sony write uncompressed sound that is
+placed from the pictures by arithmetic rather than searched for, and the
+camcorder's, the Apple-muxed recording's, the iPhone's and the Pixel's
+compressed sound is read frame by frame, with the system's own decoder saying
+where each frame ends. The metadata
 an iPhone writes behind each block of sound, and the recovery index it keeps
 inside its own recording, each name their own length, so they are stepped over
 to the next picture rather than read as sound. On a camera it has not measured,
