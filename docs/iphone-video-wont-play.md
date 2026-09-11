@@ -105,17 +105,20 @@ against the original by byte position and size:
 
 | Real iPhone footage, no reference clip | Frames | Sound | Decode errors |
 | --- | --- | --- | --- |
-| 1080p 120fps, cut at 50% | 297 / 297 | 431 / 431 | 0 |
-| 1080p 120fps, cut at 60% | 297 / 297 | 431 / 431 | 0 |
-| 1080p 120fps, cut at 85% | 596 / 596 | 862 / 862 | 0 |
-| 1080p 29.97fps, cut at 85% | 300 / 300 | 431 / 431 | 0 |
+| 1080p 120fps, cut at 50% | 397 / 397 | 560 / 560 | 0 |
+| 1080p 120fps, cut at 60% | 484 / 484 | 690 / 690 | 0 |
+| 1080p 120fps, cut at 85% | 692 / 692 | 991 / 991 | 0 |
+| 1080p 29.97fps, cut at 85% | 416 / 416 | 582 / 582 | 0 |
 
 Picture and sound both, every frame and every audio packet at the exact offset
-and size the phone wrote, and the repaired file decodes end to end without a
-single error. The index describes the take as of its last checkpoint, and the
-first one falls about ten seconds into a recording, so a take shorter than that
-has none to read: the app says so and asks for a reference clip rather than
-guessing. It also tells you how much footage lies past the final checkpoint.
+and size the phone wrote, every one the phone wrote before the cut, and the
+repaired file decodes end to end without a single error. The index describes
+the take as of its last checkpoint; the footage after that checkpoint is read
+with the configuration the index carries, the way a clip from the same phone
+would have it read, and the app says how many frames came from each. The first
+checkpoint falls about ten seconds into a recording, so a take shorter than
+that has none to read: the app says so and asks for a reference clip rather
+than guessing.
 
 ## Send it over
 

@@ -61,16 +61,19 @@ extends it as recording continues. A take that ends normally appends the real
 index and abandons that scaffold; a take that ends in a drained battery leaves
 it behind.
 
-That is the camera's own account of what it wrote and where, so nothing is
-searched for and nothing is inferred — and unlike a scan, the sound comes back
-with the picture.
+That is the camera's own account of what it wrote and where, so up to its last
+checkpoint nothing is searched for and nothing is inferred — and unlike a scan,
+the sound comes back with the picture. Past that checkpoint the index still
+carries what a reference clip would, so the rest of the footage is read with
+it, exactly as a clip from the same phone would have it read: the take cut at
+60% gives 297 frames from the index and 187 more past it, 484 in all.
 
 | iPhone 11, no reference clip | Frames | Audio | Decode errors |
 |---|---|---|---|
-| take cut at 50% | 297 / 297 | 431 / 431 | 0 |
-| take cut at 60% | 297 / 297 | 431 / 431 | 0 |
-| take cut at 85% | 596 / 596 | 862 / 862 | 0 |
-| second take, cut at 85% | 300 / 300 | 431 / 431 | 0 |
+| take cut at 50% | 397 / 397 | 560 / 560 | 0 |
+| take cut at 60% | 484 / 484 | 690 / 690 | 0 |
+| take cut at 85% | 692 / 692 | 991 / 991 | 0 |
+| second take, cut at 85% | 416 / 416 | 582 / 582 | 0 |
 
 A take that ended before its first checkpoint has nothing to read, and is
 refused with a request for a reference clip rather than guessed at.

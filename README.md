@@ -72,16 +72,18 @@ its own account of itself, with nothing searched for and nothing inferred.
 
 | iPhone 11, no reference clip | frames | audio | decode errors |
 |---|---|---|---|
-| take cut at 50% | 297 / 297 | 431 / 431 | 0 |
-| take cut at 60% | 297 / 297 | 431 / 431 | 0 |
-| take cut at 85% | 596 / 596 | 862 / 862 | 0 |
-| second take, cut at 85% | 300 / 300 | 431 / 431 | 0 |
+| take cut at 50% | 397 / 397 | 560 / 560 | 0 |
+| take cut at 60% | 484 / 484 | 690 / 690 | 0 |
+| take cut at 85% | 692 / 692 | 991 / 991 | 0 |
+| second take, cut at 85% | 416 / 416 | 582 / 582 | 0 |
 
-An index stops at the last checkpoint the phone managed to write, so a reference
-clip still recovers more where one is available: the same take cut at 60% gives
-297 frames from the index alone and 484 with a clip. Cinesalve reports which
-route it took and how much footage sits past the checkpoint, so the choice is
-yours rather than silently made for you.
+The index stops at the last checkpoint the phone managed to write, but it carries
+what a reference clip would carry, the codec configuration, the sound description
+and the way the phone lays its samples down, so the footage after that checkpoint
+is read with it, exactly as a clip from the same phone would have it read. The
+take cut at 60% gives 297 frames from the index and 187 more past it, 484 in all,
+which is what a clip from the same phone recovers through the same bytes.
+Cinesalve reports how many frames came from each.
 
 ## Recovered with a clip from the same camera
 
