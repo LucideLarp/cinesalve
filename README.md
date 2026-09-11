@@ -24,8 +24,9 @@ file. Cinesalve rebuilds the index and the recording plays again.
 **Check your file free, in your browser:**
 [cinesalve.honorboxx.workers.dev/check](https://cinesalve.honorboxx.workers.dev/check)
 reads your damaged file and reports exactly how many frames are recoverable and
-how many seconds that is. Nothing is uploaded — it reads only the first and last
-megabyte — and it runs on any computer, Windows included.
+how many seconds that is. Nothing is uploaded — the verdict reads the first and
+last megabyte, the frame count up to 100.7 MB of the footage and a reference clip
+in full if you add one — and it runs on any computer, Windows included.
 
 **More on the failure itself**
 

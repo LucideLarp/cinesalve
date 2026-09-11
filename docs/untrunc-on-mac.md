@@ -61,8 +61,9 @@ knowing whether the footage was ever recoverable.
 
 Before you spend another evening on a compiler, it is worth knowing whether the
 footage is there at all. The free checker tells you. It runs in your browser:
-nothing is uploaded, only the first and last megabyte are read, and it works on
-any computer, Windows included.
+nothing is uploaded, the verdict reads the first and last megabyte, the frame
+count up to 100.7 MB of the footage and a reference clip in full if you add one,
+and it works on any computer, Windows included.
 
 **https://cinesalve.honorboxx.workers.dev/check**
 

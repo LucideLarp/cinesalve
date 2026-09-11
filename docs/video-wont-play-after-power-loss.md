@@ -73,8 +73,10 @@ but no `moov`, is case 1: the footage is there and only the index is missing.
 
 You can also check it in a browser, without installing anything, at
 [cinesalve.honorboxx.workers.dev/check](https://cinesalve.honorboxx.workers.dev/check).
-It reads only the first and last megabyte, nothing is uploaded, and it reports
-how many frames are recoverable. It runs on any computer, Windows included.
+Nothing is uploaded: the verdict reads the first and last megabyte, and the frame
+count up to 100.7 MB of the footage and a reference clip in full if you add one.
+It reports how many frames are recoverable and runs on any computer, Windows
+included.
 
 ## The free things to try, in order
 

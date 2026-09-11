@@ -51,8 +51,10 @@ never written, and card level recovery software is the only remaining route.
 
 The browser checker at
 [cinesalve.honorboxx.workers.dev/check](https://cinesalve.honorboxx.workers.dev/check)
-reads the first and last megabyte of the file and tells you how many frames are
-recoverable. Nothing is uploaded, and it runs on any computer including Windows.
+reads the first and last megabyte of the file for its verdict, then up to
+100.7 MB of the footage to tell you how many frames are recoverable, and a
+reference clip in full if you add one. Nothing is uploaded, and it runs on any
+computer including Windows.
 It counts frames and never assembles a playable file.
 
 ## 4. Rebuild the index

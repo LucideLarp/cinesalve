@@ -58,8 +58,9 @@ A file of a few kilobytes means the camera never wrote the footage at all, and
 your only remaining route is card level recovery software.
 
 There is also a free checker that reads the file in your browser and tells you
-how many frames are recoverable. Nothing is uploaded, only the first and last
-megabyte are read, and it works on any computer including Windows:
+how many frames are recoverable. Nothing is uploaded: the verdict reads the first
+and last megabyte, the frame count up to 100.7 MB of the footage and a reference
+clip in full if you add one, and it works on any computer including Windows:
 **https://cinesalve.honorboxx.workers.dev/check**
 
 ## 4. Rebuild the index
