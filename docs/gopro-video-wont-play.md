@@ -106,7 +106,14 @@ The sound comes back whole. A GoPro writes sixteen bytes ahead of every sample
 it records: two letters, the sample's type, and its size. So once the pictures
 are placed, the sound between them is not searched for at all. Cinesalve reads
 each frame at the size the camera declared, steps over the timecode and
-telemetry the same way, and writes nothing the camera did not name. Measured
+telemetry the same way, and writes nothing the camera did not name. It needs
+no clip for the sound either: the same headers state each frame's length,
+every frame names its channel layout, and the way the camera interleaves sound
+among the pictures, against the picture rate the recording states, is the
+sample rate, so the sound description is read from the damaged file the way
+the codec configuration is. A take shorter than about two seconds comes back
+with its picture and a note that the sound needs a clip from the same camera,
+because that rate is read from the interleave rather than taken on trust. Measured
 on twelve GoPro recordings, HERO5 to MAX and HEVC included, the declared size
 matched the camera's own index for every sound frame, and on every GoPro
 recording in the suite every frame the camera wrote before the cut comes back

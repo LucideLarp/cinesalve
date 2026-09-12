@@ -13,7 +13,8 @@ file. Cinesalve rebuilds the index and the recording plays again.
   original.
 - **GoPro needs nothing but the broken file.** Those recordings carry their own
   codec configuration, in the H.264 and the HEVC modes the range records, and
-  Cinesalve reads it from the damaged file itself.
+  Cinesalve reads it from the damaged file itself; the sound too, since the
+  camera names every sample ahead of it and its own interleave states the rate.
 - **Nothing is uploaded.** Footage never leaves your Mac. No account, no
   telemetry, works offline.
 - **One-time $69.** Every Mac you own, for good. No subscription.
@@ -51,19 +52,19 @@ exact against the intact original, the codec configuration reconstructed
 byte-identical to the real one, and zero decode errors from ffmpeg reading the
 result end to end.
 
-| real camera | frames recovered | exact | decode errors |
-|---|---|---|---|
-| GoPro HERO5 | 456 / 456 | 100% | 0 |
-| GoPro HERO6 | 425 / 425 | 100% | 0 |
-| GoPro HERO6, second take | 263 / 263 | 100% | 0 |
-| GoPro HERO7 | 170 / 170 | 100% | 0 |
-| GoPro HERO8 | 323 / 323 | 100% | 0 |
-| GoPro Karma | 200 / 200 | 100% | 0 |
-| GoPro Fusion | 160 / 160 | 100% | 0 |
-| GoPro MAX | 175 / 175 | 100% | 0 |
-| GoPro HERO6 with BLE | 181 / 181 | 100% | 0 |
-| GoPro HEVC, 1080p 59.94fps | 217 / 217 | 100% | 0 |
-| GoPro HEVC, second take | 89 / 89 | 100% | 0 |
+| real camera | frames recovered | sound | exact | decode errors |
+|---|---|---|---|---|
+| GoPro HERO5 | 456 / 456 | 892 / 892 | 100% | 0 |
+| GoPro HERO6 | 425 / 425 | 665 / 665 | 100% | 0 |
+| GoPro HERO6, second take | 263 / 263 | 412 / 412 | 100% | 0 |
+| GoPro HERO7 | 170 / 170 | 266 / 266 | 100% | 0 |
+| GoPro HERO8 | 323 / 323 | 506 / 506 | 100% | 0 |
+| GoPro Karma | 200 / 200 | 313 / 313 | 100% | 0 |
+| GoPro Fusion | 160 / 160 | 251 / 251 | 100% | 0 |
+| GoPro MAX | 175 / 175 | 274 / 274 | 100% | 0 |
+| GoPro HERO6 with BLE | 181 / 181 | 354 / 354 | 100% | 0 |
+| GoPro HEVC, 1080p 59.94fps | 217 / 217 | 169 / 169 | 100% | 0 |
+| GoPro HEVC, second take | 186 / 186 | 145 / 145 | 100% | 0 |
 
 An iPhone gets there by a different route and keeps its sound. About ten seconds
 into a take, iOS writes a complete index into the middle of the recording so that
