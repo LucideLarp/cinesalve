@@ -105,6 +105,7 @@ one camera-original clip of that make is published anywhere to pair with.
 | iPhone 11, HEVC | 484 / 484 | 100% | a different take |
 | Canon EOS 5D Mark II | 208 / 208 | 100% | a different take |
 | Fujifilm FinePix XP70 | 900 / 900 | 100% | its own full recording |
+| Panasonic DC-GH5, 4K | 111 / 111 | 100% | a different take |
 | Nikon COOLPIX P300, 1080p | 840 / 840 | 100% | a different take |
 | Nikon COOLPIX P300, cut at 85% | 1187 / 1187 | 100% | a different take |
 | QuickTime, Apple's own muxer | 420 / 420 | 100% | a different take |
@@ -131,10 +132,10 @@ Picture, exactly, on H.264 and HEVC in MP4 and MOV — what consumer and prosume
 cameras record.
 
 Sound comes back on every camera in the suite that recorded any. On a GoPro, a
-Canon EOS, a Fujifilm FinePix, a Nikon COOLPIX, a Sony camcorder, a consumer camcorder, a recording written by
+Canon EOS, a Fujifilm FinePix, a Nikon COOLPIX, a Panasonic DC-GH5, a Sony camcorder, a consumer camcorder, a recording written by
 Apple's own muxer, an iPhone and a Google Pixel it comes back whole, every frame
 at the position the camera wrote it: a GoPro names the size of every sample in
-the bytes ahead of it, the Canon, the Fujifilm and the Sony write uncompressed sound that is
+the bytes ahead of it, the Canon, the Fujifilm, the Panasonic and the Sony write uncompressed sound that is
 placed from the pictures by arithmetic rather than searched for, and the
 camcorder's, the Apple-muxed recording's, the Nikon's, the iPhone's and the Pixel's
 compressed sound is read frame by frame, with the system's own decoder saying
