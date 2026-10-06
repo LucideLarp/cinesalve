@@ -109,25 +109,30 @@ clip from the same camera that does, and it rebuilds the index so the file plays
 again. Nothing is uploaded; it runs entirely on your Mac. **$69 once.**
 
 Measured against a real Sony FDR-AX100E recording, 4K at 25fps, camera original
-and cut mid-take at two points, 55% and 85% of the way through. Every recovered
-frame is compared against the original by byte position and size:
+and cut mid-take at two points, 55% and 85% of the way through, and against a real
+Sony a6300 (ILCE-6300) recording, 1080p at 59.94fps, repaired with a different
+take from the same shoot as the reference. Every recovered frame is compared
+against the original by byte position and size:
 
 | Real Sony footage | Frames recovered | Exact | Reference |
 |---|---|---|---|
 | Sony FDR-AX100E, 2160p 25fps, cut at 55% | 1488 / 1488 | 100% | its own full recording |
 | Sony FDR-AX100E, 2160p 25fps, cut at 85% | 2292 / 2292 | 100% | its own full recording |
+| Sony ILCE-6300, 1080p 59.94fps, cut at 60% | 354 / 354 | 100% | a different take |
+| Sony ILCE-6300, 1080p 59.94fps, cut at 85% | 508 / 508 | 100% | a different take |
 
-Every frame lands at the exact offset and size the camera wrote. That last column
-is there because one camera original AX100 clip is published anywhere to test
-against, so the measurement pairs the damaged file with its own untruncated self
-rather than with a separate take. This camera records *uncompressed* sound rather
+Every frame lands at the exact offset and size the camera wrote. The last column
+says what the settings were read from: one camera original AX100 clip is
+published anywhere to test against, so that recording is paired with its own
+untruncated self, while the a6300 is repaired the way you would repair yours,
+with a second clip from the same camera. Both record *uncompressed* sound rather
 than the compressed kind, interleaved between the pictures beside a timecode
 block, and the sound comes back with the picture: the timecode block is a fixed
 size for every picture that follows it, so once the pictures are placed exactly,
-what remains between two of them is sound, and on the recording above every
-sample the camera wrote before the cut lands where the camera wrote it. Other
-Sony bodies have not been through the suite, and a clip from one is genuinely
-welcome.
+what remains between two of them is sound, and on the recordings above every
+sample the camera wrote before the cut lands where the camera wrote it. The
+a6300 writes its sound and timecode in the same shape, half a second at a time,
+and its sound comes back whole the same way.
 
 ## If none of it works
 

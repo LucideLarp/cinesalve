@@ -99,6 +99,8 @@ one camera-original clip of that make is published anywhere to pair with.
 |---|---|---|---|
 | Sony FDR-AX100E, 4K | 1488 / 1488 | 100% | its own full recording |
 | Sony FDR-AX100E, cut at 85% | 2292 / 2292 | 100% | its own full recording |
+| Sony ILCE-6300, 1080p | 354 / 354 | 100% | a different take |
+| Sony ILCE-6300, cut at 85% | 508 / 508 | 100% | a different take |
 | Google Pixel 7 Pro, 1080p | 728 / 728 | 100% | its own full recording |
 | Google Pixel 7 Pro, cut at 85% | 1051 / 1051 | 100% | its own full recording |
 | DJI Mavic 3 Pro, 4K | 722 / 722 | 100% | a different take |
@@ -134,7 +136,7 @@ Picture, exactly, on H.264 and HEVC in MP4 and MOV — what consumer and prosume
 cameras record.
 
 Sound comes back on every camera in the suite that recorded any. On a GoPro, a
-Canon EOS, a Fujifilm FinePix, a Nikon COOLPIX, a Panasonic DC-GH5, a Pentax X-5, a Sony camcorder, a consumer camcorder, a recording written by
+Canon EOS, a Fujifilm FinePix, a Nikon COOLPIX, a Panasonic DC-GH5, a Pentax X-5, a Sony camcorder, a Sony a6300, a consumer camcorder, a recording written by
 Apple's own muxer, an iPhone and a Google Pixel it comes back whole, every frame
 at the position the camera wrote it: a GoPro names the size of every sample in
 the bytes ahead of it, the Canon, the Fujifilm, the Panasonic, the Pentax and the Sony write uncompressed sound that is
