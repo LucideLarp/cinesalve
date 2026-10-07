@@ -114,6 +114,8 @@ one camera-original clip of that make is published anywhere to pair with.
 | Pentax X-5, cut at 85% | 179 / 179 | 100% | a different take |
 | Olympus, 1080p | 399 / 399 | 100% | a different take |
 | Olympus, cut at 85% | 569 / 569 | 100% | a different take |
+| YI action camera, 4K | 408 / 408 | 100% | a different take |
+| YI action camera, cut at 85% | 578 / 578 | 100% | a different take |
 | QuickTime, Apple's own muxer | 420 / 420 | 100% | a different take |
 | 1080p consumer camera | 1356 / 1356 | 100% | a different take |
 | GoPro HERO6, cut at 85% | 603 / 603 | 100% | a different take |
