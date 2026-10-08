@@ -110,8 +110,9 @@ again. Nothing is uploaded; it runs entirely on your Mac. **$69 once.**
 
 Measured against a real Sony FDR-AX100E recording, 4K at 25fps, camera original
 and cut mid-take at two points, 55% and 85% of the way through, and against a real
-Sony a6300 (ILCE-6300) recording, 1080p at 59.94fps, repaired with a different
-take from the same shoot as the reference. Every recovered frame is compared
+Sony a6300 (ILCE-6300) recording, 1080p at 59.94fps, and a real Sony FDR-AX100
+recording, 4K at 29.97fps, each repaired with a different take from the same
+shoot as the reference. Every recovered frame is compared
 against the original by byte position and size:
 
 | Real Sony footage | Frames recovered | Exact | Reference |
@@ -120,12 +121,14 @@ against the original by byte position and size:
 | Sony FDR-AX100E, 2160p 25fps, cut at 85% | 2292 / 2292 | 100% | its own full recording |
 | Sony ILCE-6300, 1080p 59.94fps, cut at 60% | 354 / 354 | 100% | a different take |
 | Sony ILCE-6300, 1080p 59.94fps, cut at 85% | 508 / 508 | 100% | a different take |
+| Sony FDR-AX100, 4K 30p, cut at 60% | 190 / 190 | 100% | a different take |
+| Sony FDR-AX100, 4K 30p, cut at 85% | 259 / 259 | 100% | a different take |
 
 Every frame lands at the exact offset and size the camera wrote. The last column
-says what the settings were read from: one camera original AX100 clip is
-published anywhere to test against, so that recording is paired with its own
-untruncated self, while the a6300 is repaired the way you would repair yours,
-with a second clip from the same camera. Both record *uncompressed* sound rather
+says what the settings were read from: the AX100E recording is the only camera
+original of that model published anywhere, so it is paired with its own
+untruncated self, while the a6300 and the AX100 are repaired the way you would
+repair yours, with a second clip from the same camera. All three record *uncompressed* sound rather
 than the compressed kind, interleaved between the pictures beside a timecode
 block, and the sound comes back with the picture: the timecode block is a fixed
 size for every picture that follows it, so once the pictures are placed exactly,

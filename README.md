@@ -93,7 +93,7 @@ automatically and read it from any working clip you have, which can be a few
 seconds recorded on the spot. The last column says what each measurement here
 was made against: a separate take from the same camera, which is the situation
 you would actually be in, or the recording's own untruncated self where only
-one camera-original clip of that make is published anywhere to pair with.
+one camera-original clip of that model is published anywhere to pair with.
 
 | real camera | frames recovered | exact | reference |
 |---|---|---|---|
@@ -101,6 +101,8 @@ one camera-original clip of that make is published anywhere to pair with.
 | Sony FDR-AX100E, cut at 85% | 2292 / 2292 | 100% | its own full recording |
 | Sony ILCE-6300, 1080p | 354 / 354 | 100% | a different take |
 | Sony ILCE-6300, cut at 85% | 508 / 508 | 100% | a different take |
+| Sony FDR-AX100, 4K 30p | 190 / 190 | 100% | a different take |
+| Sony FDR-AX100, 4K 30p, cut at 85% | 259 / 259 | 100% | a different take |
 | Google Pixel 7 Pro, 1080p | 728 / 728 | 100% | its own full recording |
 | Google Pixel 7 Pro, cut at 85% | 1051 / 1051 | 100% | its own full recording |
 | DJI Mavic 3 Pro, 4K | 722 / 722 | 100% | a different take |
