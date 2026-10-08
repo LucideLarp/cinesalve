@@ -116,6 +116,8 @@ one camera-original clip of that make is published anywhere to pair with.
 | Olympus, cut at 85% | 569 / 569 | 100% | a different take |
 | YI action camera, 4K | 408 / 408 | 100% | a different take |
 | YI action camera, cut at 85% | 578 / 578 | 100% | a different take |
+| iCatch action camera, 1080p60 | 417 / 417 | 100% | a different take |
+| iCatch action camera, cut at 85% | 592 / 592 | 100% | a different take |
 | QuickTime, Apple's own muxer | 420 / 420 | 100% | a different take |
 | 1080p consumer camera | 1356 / 1356 | 100% | a different take |
 | GoPro HERO6, cut at 85% | 603 / 603 | 100% | a different take |
@@ -140,10 +142,10 @@ Picture, exactly, on H.264 and HEVC in MP4 and MOV — what consumer and prosume
 cameras record.
 
 Sound comes back on every camera in the suite that recorded any. On a GoPro, a
-Canon EOS, a Fujifilm FinePix, a Nikon COOLPIX, a Panasonic DC-GH5, a Pentax X-5, an Olympus, a YI action camera, a Sony camcorder, a Sony a6300, a consumer camcorder, a recording written by
+Canon EOS, a Fujifilm FinePix, a Nikon COOLPIX, a Panasonic DC-GH5, a Pentax X-5, an Olympus, a YI action camera, an iCatch action camera, a Sony camcorder, a Sony a6300, a consumer camcorder, a recording written by
 Apple's own muxer, an iPhone and a Google Pixel it comes back whole, every frame
 at the position the camera wrote it: a GoPro names the size of every sample in
-the bytes ahead of it, the Canon, the Fujifilm, the Olympus, the Panasonic, the Pentax and the Sony write uncompressed sound that is
+the bytes ahead of it, the Canon, the Fujifilm, the iCatch camera, the Olympus, the Panasonic, the Pentax and the Sony write uncompressed sound that is
 placed from the pictures by arithmetic rather than searched for, and the
 camcorder's, the Apple-muxed recording's, the Nikon's, the YI's, the iPhone's and the Pixel's
 compressed sound is read frame by frame, with the system's own decoder saying
