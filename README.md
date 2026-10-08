@@ -140,12 +140,12 @@ Picture, exactly, on H.264 and HEVC in MP4 and MOV — what consumer and prosume
 cameras record.
 
 Sound comes back on every camera in the suite that recorded any. On a GoPro, a
-Canon EOS, a Fujifilm FinePix, a Nikon COOLPIX, a Panasonic DC-GH5, a Pentax X-5, an Olympus, a Sony camcorder, a Sony a6300, a consumer camcorder, a recording written by
+Canon EOS, a Fujifilm FinePix, a Nikon COOLPIX, a Panasonic DC-GH5, a Pentax X-5, an Olympus, a YI action camera, a Sony camcorder, a Sony a6300, a consumer camcorder, a recording written by
 Apple's own muxer, an iPhone and a Google Pixel it comes back whole, every frame
 at the position the camera wrote it: a GoPro names the size of every sample in
 the bytes ahead of it, the Canon, the Fujifilm, the Olympus, the Panasonic, the Pentax and the Sony write uncompressed sound that is
 placed from the pictures by arithmetic rather than searched for, and the
-camcorder's, the Apple-muxed recording's, the Nikon's, the iPhone's and the Pixel's
+camcorder's, the Apple-muxed recording's, the Nikon's, the YI's, the iPhone's and the Pixel's
 compressed sound is read frame by frame, with the system's own decoder saying
 where each frame ends. The metadata
 an iPhone writes behind each block of sound, and the recovery index it keeps
