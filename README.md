@@ -112,6 +112,8 @@ one camera-original clip of that model is published anywhere to pair with.
 | Canon PowerShot SX30 IS, cut at 85% | 558 / 558 | 100% | a different take |
 | Canon, 720p, mono sound | 266 / 266 | 100% | a different take |
 | Canon, 720p, mono sound, cut at 85% | 372 / 372 | 100% | a different take |
+| SANYO Xacti WH1 | 837 / 837 | 100% | a different take |
+| SANYO Xacti WH1, cut at 85% | 1195 / 1195 | 100% | a different take |
 | Fujifilm FinePix XP70 | 900 / 900 | 100% | its own full recording |
 | Panasonic DC-GH5, 4K | 111 / 111 | 100% | a different take |
 | Panasonic Lumix DMC-TZ60 | 3274 / 3274 | 100% | a different take |
@@ -150,12 +152,12 @@ Picture, exactly, on H.264 and HEVC in MP4 and MOV — what consumer and prosume
 cameras record.
 
 Sound comes back on every camera in the suite that recorded any. On a GoPro, a
-Canon EOS, a Canon PowerShot, a Fujifilm FinePix, a Nikon COOLPIX, a Panasonic DC-GH5, a Panasonic Lumix TZ60, a Pentax X-5, an Olympus, a YI action camera, an iCatch action camera, a Sony camcorder, a Sony a6300, a consumer camcorder, a recording written by
+Canon EOS, a Canon PowerShot, a Fujifilm FinePix, a Nikon COOLPIX, a Panasonic DC-GH5, a Panasonic Lumix TZ60, a Pentax X-5, an Olympus, a YI action camera, an iCatch action camera, a SANYO Xacti, a Sony camcorder, a Sony a6300, a consumer camcorder, a recording written by
 Apple's own muxer, an iPhone and a Google Pixel it comes back whole, every frame
 at the position the camera wrote it: a GoPro names the size of every sample in
 the bytes ahead of it, the Canons, the Fujifilm, the iCatch camera, the Olympus, the GH5, the Pentax and the Sony write uncompressed sound that is
 placed from the pictures by arithmetic rather than searched for, and the
-camcorder's, the Apple-muxed recording's, the Lumix's, the Nikon's, the YI's, the iPhone's and the Pixel's
+camcorder's, the Apple-muxed recording's, the Lumix's, the Nikon's, the YI's, the Xacti's, the iPhone's and the Pixel's
 compressed sound is read frame by frame, with the system's own decoder saying
 where each frame ends. The metadata
 an iPhone writes behind each block of sound, and the recovery index it keeps
