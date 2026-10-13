@@ -116,6 +116,8 @@ one camera-original clip of that model is published anywhere to pair with.
 | SANYO Xacti WH1, cut at 85% | 1195 / 1195 | 100% | a different take |
 | SANYO Xacti SH1, interlaced | 731 / 731 | 100% | a different take |
 | SANYO Xacti SH1, cut at 85% | 1056 / 1056 | 100% | a different take |
+| SANYO Xacti FH1, 1080p60 | 1566 / 1566 | 100% | a different take |
+| SANYO Xacti FH1, cut at 85% | 2226 / 2226 | 100% | a different take |
 | Fujifilm FinePix XP70 | 900 / 900 | 100% | its own full recording |
 | Panasonic DC-GH5, 4K | 111 / 111 | 100% | a different take |
 | Panasonic Lumix DMC-TZ60 | 3274 / 3274 | 100% | a different take |
