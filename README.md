@@ -131,6 +131,8 @@ one camera-original clip of that model is published anywhere to pair with.
 | Pentax X-5, cut at 85% | 179 / 179 | 100% | a different take |
 | Olympus, 1080p | 399 / 399 | 100% | a different take |
 | Olympus, cut at 85% | 569 / 569 | 100% | a different take |
+| Ricoh WG-80, 1080p | 817 / 817 | 100% | a different take |
+| Ricoh WG-80, cut at 85% | 1168 / 1168 | 100% | a different take |
 | YI action camera, 4K | 408 / 408 | 100% | a different take |
 | YI action camera, cut at 85% | 578 / 578 | 100% | a different take |
 | iCatch action camera, 1080p60 | 417 / 417 | 100% | a different take |
@@ -159,10 +161,10 @@ Picture, exactly, on H.264 and HEVC in MP4 and MOV — what consumer and prosume
 cameras record.
 
 Sound comes back on every camera in the suite that recorded any. On a GoPro, a
-Canon EOS, a Canon PowerShot, a Casio EX-S10, a Fujifilm FinePix, a Nikon COOLPIX, a Panasonic DC-GH5, a Panasonic Lumix TZ60, a Pentax X-5, an Olympus, a YI action camera, an iCatch action camera, a SANYO Xacti, a Sony camcorder, a Sony a6300, a consumer camcorder, a recording written by
+Canon EOS, a Canon PowerShot, a Casio EX-S10, a Fujifilm FinePix, a Nikon COOLPIX, a Panasonic DC-GH5, a Panasonic Lumix TZ60, a Pentax X-5, a Ricoh WG-80, an Olympus, a YI action camera, an iCatch action camera, a SANYO Xacti, a Sony camcorder, a Sony a6300, a consumer camcorder, a recording written by
 Apple's own muxer, an iPhone and a Google Pixel it comes back whole, every frame
 at the position the camera wrote it: a GoPro names the size of every sample in
-the bytes ahead of it, the Canons, the Fujifilm, the iCatch camera, the Olympus, the GH5, the Pentax and the Sony write uncompressed sound that is
+the bytes ahead of it, the Canons, the Fujifilm, the iCatch camera, the Olympus, the GH5, the Pentax, the Ricoh and the Sony write uncompressed sound that is
 placed from the pictures by arithmetic rather than searched for, and the
 camcorder's, the Apple-muxed recording's, the Lumix's, the Nikon's, the YI's, the Xacti's, the Casio's, the iPhone's and the Pixel's
 compressed sound is read frame by frame, with the system's own decoder saying
