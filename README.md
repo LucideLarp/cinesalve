@@ -120,7 +120,8 @@ one camera-original clip of that model is published anywhere to pair with.
 | SANYO Xacti FH1, cut at 85% | 2226 / 2226 | 100% | a different take |
 | Casio EX-S10 | 842 / 842 | 100% | a different take |
 | Casio EX-S10, cut at 85% | 1166 / 1166 | 100% | a different take |
-| Fujifilm FinePix XP70 | 900 / 900 | 100% | its own full recording |
+| Fujifilm FinePix XP70 | 3494 / 3494 | 100% | a different take |
+| Fujifilm FinePix XP70, cut at 85% | 4951 / 4951 | 100% | a different take |
 | Panasonic DC-GH5, 4K | 111 / 111 | 100% | a different take |
 | Panasonic Lumix DMC-TZ60 | 3274 / 3274 | 100% | a different take |
 | Panasonic Lumix DMC-TZ60, cut at 85% | 4572 / 4572 | 100% | a different take |
