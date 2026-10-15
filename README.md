@@ -133,6 +133,8 @@ one camera-original clip of that model is published anywhere to pair with.
 | Nikon 1 J3, cut at 85% | 630 / 630 | 100% | a different take |
 | Nikon Z6III, 4K HEVC | 46 / 46 | 100% | a different take |
 | Nikon Z6III, 4K HEVC, cut at 85% | 62 / 62 | 100% | a different take |
+| Nikon Z 50, 4K | 125 / 125 | 100% | a different take |
+| Nikon Z 50, 4K, cut at 85% | 184 / 184 | 100% | a different take |
 | Pentax X-5, 1080p | 120 / 120 | 100% | a different take |
 | Pentax X-5, cut at 85% | 179 / 179 | 100% | a different take |
 | Olympus, 1080p | 399 / 399 | 100% | a different take |
