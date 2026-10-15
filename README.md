@@ -131,6 +131,8 @@ one camera-original clip of that model is published anywhere to pair with.
 | Nikon D3100, cut at 85% | 408 / 408 | 100% | a different take |
 | Nikon 1 J3, interlaced | 444 / 444 | 100% | a different take |
 | Nikon 1 J3, cut at 85% | 630 / 630 | 100% | a different take |
+| Nikon Z6III, 4K HEVC | 46 / 46 | 100% | a different take |
+| Nikon Z6III, 4K HEVC, cut at 85% | 62 / 62 | 100% | a different take |
 | Pentax X-5, 1080p | 120 / 120 | 100% | a different take |
 | Pentax X-5, cut at 85% | 179 / 179 | 100% | a different take |
 | Olympus, 1080p | 399 / 399 | 100% | a different take |
@@ -167,10 +169,10 @@ Picture, exactly, on H.264 and HEVC in MP4 and MOV — what consumer and prosume
 cameras record.
 
 Sound comes back on every camera in the suite that recorded any. On a GoPro, a
-Canon EOS, a Canon PowerShot, a Casio EX-S10, a Fujifilm FinePix, a Nikon COOLPIX, a Nikon D3100, a Nikon 1 J3, a Panasonic DC-GH5, a Panasonic Lumix TZ60, a Pentax X-5, a Ricoh WG-80, a Samsung SMX-F70, an Olympus, a YI action camera, an iCatch action camera, a SANYO Xacti, a Sony camcorder, a Sony a6300, a consumer camcorder, a recording written by
+Canon EOS, a Canon PowerShot, a Casio EX-S10, a Fujifilm FinePix, a Nikon COOLPIX, a Nikon D3100, a Nikon 1 J3, a Nikon Z6III, a Panasonic DC-GH5, a Panasonic Lumix TZ60, a Pentax X-5, a Ricoh WG-80, a Samsung SMX-F70, an Olympus, a YI action camera, an iCatch action camera, a SANYO Xacti, a Sony camcorder, a Sony a6300, a consumer camcorder, a recording written by
 Apple's own muxer, an iPhone and a Google Pixel it comes back whole, every frame
 at the position the camera wrote it: a GoPro names the size of every sample in
-the bytes ahead of it, the Canons, the Fujifilm, the iCatch camera, the Olympus, the GH5, the Pentax, the Ricoh, the Nikon D3100 and the Sony write uncompressed sound that is
+the bytes ahead of it, the Canons, the Fujifilm, the iCatch camera, the Olympus, the GH5, the Pentax, the Ricoh, the Nikon D3100, the Nikon Z6III and the Sony write uncompressed sound that is
 placed from the pictures by arithmetic rather than searched for, and the
 camcorders', the Apple-muxed recording's, the Lumix's, the COOLPIX's, the Nikon 1's, the YI's, the Xacti's, the Casio's, the iPhone's and the Pixel's
 compressed sound is read frame by frame, with the system's own decoder saying
