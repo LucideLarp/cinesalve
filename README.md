@@ -137,6 +137,8 @@ one camera-original clip of that model is published anywhere to pair with.
 | Panasonic DC-GH5, 4K | 111 / 111 | 100% | a different take |
 | Panasonic Lumix DMC-TZ60 | 3274 / 3274 | 100% | a different take |
 | Panasonic Lumix DMC-TZ60, cut at 85% | 4572 / 4572 | 100% | a different take |
+| Panasonic Lumix DMC-SZ1 | 570 / 570 | 100% | a different take |
+| Panasonic Lumix DMC-SZ1, cut at 85% | 829 / 829 | 100% | a different take |
 | Nikon COOLPIX P300, 1080p | 840 / 840 | 100% | a different take |
 | Nikon COOLPIX P300, cut at 85% | 1187 / 1187 | 100% | a different take |
 | Nikon D3100, 1080p | 282 / 282 | 100% | a different take |
@@ -187,12 +189,12 @@ Picture, exactly, on H.264 and HEVC in MP4 and MOV — what consumer and prosume
 cameras record.
 
 Sound comes back on every camera in the suite that recorded any. On a GoPro, a
-Canon EOS, a Canon PowerShot, a Casio EX-S10, a Fujifilm FinePix, a Nikon COOLPIX, a Nikon D3100, a Nikon 1 J3, a Nikon Z6III, a Panasonic DC-GH5, a Panasonic Lumix TZ60, a Pentax X-5, a Ricoh WG-80, a Samsung SMX-F70, an Olympus, a YI action camera, an iCatch action camera, a SANYO Xacti, a Sony camcorder, a Sony a6300, a consumer camcorder, a recording written by
+Canon EOS, a Canon PowerShot, a Casio EX-S10, a Fujifilm FinePix, a Nikon COOLPIX, a Nikon D3100, a Nikon 1 J3, a Nikon Z6III, a Panasonic DC-GH5, a Panasonic Lumix TZ60, a Panasonic Lumix SZ1, a Pentax X-5, a Ricoh WG-80, a Samsung SMX-F70, an Olympus, a YI action camera, an iCatch action camera, a SANYO Xacti, a Sony camcorder, a Sony a6300, a consumer camcorder, a recording written by
 Apple's own muxer, an iPhone, a Google Pixel, a Motorola moto x4, an LG phone, a Samsung Galaxy S23 Ultra, a DJI Osmo Pocket, a DJI Osmo Pocket 3, a dashcam on a Novatek chip and a BlackVue dashcam it comes back whole, every frame
 at the position the camera wrote it: a GoPro and a BlackVue name the size of every sample in
 the bytes ahead of it, the Canons, the Fujifilm, the iCatch camera, the Olympus, the GH5, the Pentax, the Ricoh, the Nikon D3100, the Nikon Z6III and the Sony write uncompressed sound that is
 placed from the pictures by arithmetic rather than searched for, and the
-camcorders', the Apple-muxed recording's, the Lumix's, the COOLPIX's, the Nikon 1's, the YI's, the Xacti's, the Casio's, the iPhone's, the moto x4's, the LG's, the Galaxy's, both Osmo Pockets', the Novatek dashcam's and the Pixel's
+camcorders', the Apple-muxed recording's, both Lumix compacts', the COOLPIX's, the Nikon 1's, the YI's, the Xacti's, the Casio's, the iPhone's, the moto x4's, the LG's, the Galaxy's, both Osmo Pockets', the Novatek dashcam's and the Pixel's
 compressed sound is read frame by frame, with the system's own decoder saying
 where each frame ends. The metadata
 an iPhone writes behind each block of sound, and the recovery index it keeps
