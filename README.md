@@ -122,6 +122,8 @@ one camera-original clip of that model is published anywhere to pair with.
 | DJI Osmo Pocket 3, 1080p HEVC | 367 / 367 | 100% | a different take |
 | DJI Osmo Pocket 3, cut at 85% | 540 / 540 | 100% | a different take |
 | iPhone 11, HEVC | 484 / 484 | 100% | a different take |
+| iPhone 12 Pro Max, Dolby Vision HDR | 344 / 344 | 100% | a different take |
+| iPhone 12 Pro Max, cut at 85% | 484 / 484 | 100% | a different take |
 | Canon EOS 5D Mark II | 208 / 208 | 100% | a different take |
 | Canon PowerShot SX30 IS | 391 / 391 | 100% | a different take |
 | Canon PowerShot SX30 IS, cut at 85% | 558 / 558 | 100% | a different take |
