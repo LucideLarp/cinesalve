@@ -96,6 +96,8 @@ wrote, measured that way against footage straight off real GoPro cameras:
 | HERO5 | 456 / 456 | 100% |
 | HERO7 | 170 / 170 | 100% |
 | HERO8 | 323 / 323 | 100% |
+| HERO11 Black, 4K 4:3 HEVC | 145 / 145 | 100% |
+| HERO12 Black, 1080p HEVC | 217 / 217 | 100% |
 | Karma | 200 / 200 | 100% |
 | Fusion | 160 / 160 | 100% |
 | MAX | 175 / 175 | 100% |

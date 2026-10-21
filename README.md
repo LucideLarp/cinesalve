@@ -64,8 +64,10 @@ result end to end.
 | GoPro Fusion | 160 / 160 | 251 / 251 | 100% | 0 |
 | GoPro MAX | 175 / 175 | 274 / 274 | 100% | 0 |
 | GoPro HERO6 with BLE | 181 / 181 | 354 / 354 | 100% | 0 |
-| GoPro HEVC, 1080p 59.94fps | 217 / 217 | 169 / 169 | 100% | 0 |
-| GoPro HEVC, second take | 186 / 186 | 145 / 145 | 100% | 0 |
+| GoPro HERO12 Black, 1080p HEVC | 217 / 217 | 169 / 169 | 100% | 0 |
+| GoPro HERO12 Black, second take | 186 / 186 | 145 / 145 | 100% | 0 |
+| GoPro HERO11 Black, 4K 4:3 HEVC | 145 / 145 | 114 / 114 | 100% | 0 |
+| GoPro HERO11 Black, second take | 205 / 205 | 161 / 161 | 100% | 0 |
 
 An iPhone gets there by a different route and keeps its sound. About ten seconds
 into a take, iOS writes a complete index into the middle of the recording so that
