@@ -122,8 +122,9 @@ it, which Cinesalve reads, so the recovered take plays at the phone's own speed.
 ## Send it over
 
 A damaged Pixel clip is genuinely useful: it goes into the test suite and the
-fix ships for everyone. One from any other Android phone is just as wanted,
-since the Pixel 7 Pro is the one Android phone that has been through the suite.
+fix ships for everyone. One from any other Android phone is just as wanted:
+four have been through the suite so far, a Pixel 7 Pro, a Motorola moto x4, an
+LG-M250H and a Samsung Galaxy S23 Ultra, and every new phone is worth measuring.
 Send the clip, or just describe it, to
 [cinesalve@proton.me](mailto:cinesalve@proton.me) with the phone and the
 recording mode. You will get a straight answer about whether it can be
