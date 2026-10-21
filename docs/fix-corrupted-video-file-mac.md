@@ -101,7 +101,7 @@ Steps written for a particular camera, where the free things to try first
 differ: [GoPro](gopro-video-wont-play.md), [DJI](dji-video-wont-play.md),
 [Canon](canon-video-wont-play.md), [iPhone](iphone-video-wont-play.md),
 [Sony](sony-video-wont-play.md), [Pixel](pixel-video-wont-play.md),
-[OBS](obs-recording-wont-play.md).
+[dashcam](dashcam-video-wont-play.md), [OBS](obs-recording-wont-play.md).
 
 ## Still stuck
 
