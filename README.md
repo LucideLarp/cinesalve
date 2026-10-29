@@ -124,6 +124,10 @@ one camera-original clip of that model is published anywhere to pair with.
 | iPhone 11, HEVC | 484 / 484 | 100% | a different take |
 | iPhone 12 Pro Max, Dolby Vision HDR | 344 / 344 | 100% | a different take |
 | iPhone 12 Pro Max, cut at 85% | 484 / 484 | 100% | a different take |
+| iPhone 13 Pro Max, 4K60 HEVC | 537 / 537 | 100% | a different take |
+| iPhone 13 Pro Max, cut at 85% | 768 / 768 | 100% | a different take |
+| iPhone 14 Pro Max, 4K60 H.264 | 156 / 156 | 100% | a different take |
+| iPhone 14 Pro Max, cut at 85% | 206 / 206 | 100% | a different take |
 | Canon EOS 5D Mark II | 208 / 208 | 100% | a different take |
 | Canon PowerShot SX30 IS | 391 / 391 | 100% | a different take |
 | Canon PowerShot SX30 IS, cut at 85% | 558 / 558 | 100% | a different take |
@@ -172,6 +176,8 @@ one camera-original clip of that model is published anywhere to pair with.
 | BlackVue DR770X dashcam, cut at 85% | 648 / 648 | 100% | a different take |
 | QuickTime, Apple's own muxer | 420 / 420 | 100% | a different take |
 | 1080p consumer camera | 1356 / 1356 | 100% | a different take |
+| 1080p camera that names no maker, mono sound | 227 / 227 | 100% | a different take |
+| 1080p camera that names no maker, cut at 85% | 325 / 325 | 100% | a different take |
 | GoPro HERO6, cut at 85% | 603 / 603 | 100% | a different take |
 
 ## Synthetic suite
