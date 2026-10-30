@@ -121,6 +121,8 @@ one camera-original clip of that model is published anywhere to pair with.
 | DJI Air 3S, cut at 85% | 361 / 361 | 100% | a different take |
 | DJI Osmo Pocket 3, 1080p HEVC | 367 / 367 | 100% | a different take |
 | DJI Osmo Pocket 3, cut at 85% | 540 / 540 | 100% | a different take |
+| DJI FC7503, 1080p | 252 / 252 | 100% | a different take |
+| DJI FC7503, cut at 85% | 360 / 360 | 100% | a different take |
 | iPhone 11, HEVC | 484 / 484 | 100% | a different take |
 | iPhone 12 Pro Max, Dolby Vision HDR | 344 / 344 | 100% | a different take |
 | iPhone 12 Pro Max, cut at 85% | 484 / 484 | 100% | a different take |
