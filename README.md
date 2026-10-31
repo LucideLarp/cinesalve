@@ -133,6 +133,8 @@ one camera-original clip of that model is published anywhere to pair with.
 | Canon EOS 5D Mark II | 208 / 208 | 100% | a different take |
 | Canon PowerShot SX30 IS | 391 / 391 | 100% | a different take |
 | Canon PowerShot SX30 IS, cut at 85% | 558 / 558 | 100% | a different take |
+| Canon EOS R10, 1080p | 525 / 525 | 100% | a different take |
+| Canon EOS R10, cut at 85% | 749 / 749 | 100% | a different take |
 | Canon, 720p, mono sound | 266 / 266 | 100% | a different take |
 | Canon, 720p, mono sound, cut at 85% | 372 / 372 | 100% | a different take |
 | SANYO Xacti WH1 | 837 / 837 | 100% | a different take |
