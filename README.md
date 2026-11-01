@@ -143,6 +143,8 @@ one camera-original clip of that model is published anywhere to pair with.
 | Canon EOS 90D, cut at 85% | 114 / 114 | 100% | a different take |
 | Canon EOS 200D, 1080p25 | 302 / 302 | 100% | a different take |
 | Canon EOS 200D, cut at 85% | 432 / 432 | 100% | a different take |
+| Canon EOS Rebel T7i, 1080p | 204 / 204 | 100% | a different take |
+| Canon EOS Rebel T7i, cut at 85% | 288 / 288 | 100% | a different take |
 | Canon, 720p, mono sound | 266 / 266 | 100% | a different take |
 | Canon, 720p, mono sound, cut at 85% | 372 / 372 | 100% | a different take |
 | SANYO Xacti WH1 | 837 / 837 | 100% | a different take |
