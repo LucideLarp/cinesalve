@@ -133,6 +133,8 @@ one camera-original clip of that model is published anywhere to pair with.
 | Canon EOS 5D Mark II | 208 / 208 | 100% | a different take |
 | Canon PowerShot SX30 IS | 391 / 391 | 100% | a different take |
 | Canon PowerShot SX30 IS, cut at 85% | 558 / 558 | 100% | a different take |
+| Canon PowerShot G7 X Mark II, 1080p25 | 252 / 252 | 100% | a different take |
+| Canon PowerShot G7 X Mark II, cut at 85% | 360 / 360 | 100% | a different take |
 | Canon EOS R10, 1080p | 525 / 525 | 100% | a different take |
 | Canon EOS R10, cut at 85% | 749 / 749 | 100% | a different take |
 | Canon EOS M200, 1080p | 81 / 81 | 100% | a different take |
