@@ -147,6 +147,8 @@ one camera-original clip of that model is published anywhere to pair with.
 | Canon EOS Rebel T7i, cut at 85% | 288 / 288 | 100% | a different take |
 | Canon EOS 6D Mark II, 1080p | 419 / 419 | 100% | a different take |
 | Canon EOS 6D Mark II, cut at 85% | 593 / 593 | 100% | a different take |
+| Canon EOS 80D, 1080p | 215 / 215 | 100% | a different take |
+| Canon EOS 80D, cut at 85% | 306 / 306 | 100% | a different take |
 | Canon, 720p, mono sound | 266 / 266 | 100% | a different take |
 | Canon, 720p, mono sound, cut at 85% | 372 / 372 | 100% | a different take |
 | SANYO Xacti WH1 | 837 / 837 | 100% | a different take |
