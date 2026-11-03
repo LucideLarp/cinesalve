@@ -134,6 +134,8 @@ one camera-original clip of that model is published anywhere to pair with.
 | iPhone 13 Pro Max, cut at 85% | 768 / 768 | 100% | a different take |
 | iPhone 14 Pro Max, 4K60 H.264 | 156 / 156 | 100% | a different take |
 | iPhone 14 Pro Max, cut at 85% | 206 / 206 | 100% | a different take |
+| iPad (5th generation), 1080p | 114 / 114 | 100% | a different take |
+| iPad (5th generation), cut at 85% | 168 / 168 | 100% | a different take |
 | Canon EOS 5D Mark II | 208 / 208 | 100% | a different take |
 | Canon PowerShot SX30 IS | 391 / 391 | 100% | a different take |
 | Canon PowerShot SX30 IS, cut at 85% | 558 / 558 | 100% | a different take |
