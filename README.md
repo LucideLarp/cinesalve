@@ -69,17 +69,18 @@ result end to end.
 | GoPro HERO11 Black, 4K 4:3 HEVC | 145 / 145 | 114 / 114 | 100% | 0 |
 | GoPro HERO11 Black, second take | 205 / 205 | 161 / 161 | 100% | 0 |
 
-An iPhone gets there by a different route and keeps its sound. About ten seconds
+An iPhone or an iPad gets there by a different route and keeps its sound. About ten seconds
 into a take, iOS writes a complete index into the middle of the recording so that
 a phone dropped mid-shot still has one; a take longer than that is recovered from
 its own account of itself, with nothing searched for and nothing inferred.
 
-| iPhone 11, no reference clip | frames | audio | decode errors |
+| no reference clip | frames | audio | decode errors |
 |---|---|---|---|
-| take cut at 50% | 397 / 397 | 560 / 560 | 0 |
-| take cut at 60% | 484 / 484 | 690 / 690 | 0 |
-| take cut at 85% | 692 / 692 | 991 / 991 | 0 |
-| second take, cut at 85% | 416 / 416 | 582 / 582 | 0 |
+| iPhone 11, take cut at 50% | 397 / 397 | 560 / 560 | 0 |
+| iPhone 11, take cut at 60% | 484 / 484 | 690 / 690 | 0 |
+| iPhone 11, take cut at 85% | 692 / 692 | 991 / 991 | 0 |
+| iPhone 11, second take, cut at 85% | 416 / 416 | 582 / 582 | 0 |
+| iPad (5th generation), cut at 80% | 395 / 395 | 646 / 646 | 0 |
 
 The index stops at the last checkpoint the phone managed to write, but it carries
 what a reference clip would carry, the codec configuration, the sound description
