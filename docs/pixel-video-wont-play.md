@@ -50,9 +50,9 @@ a minute to find out.
 If the file is a sensible size rather than a few kilobytes, the video is almost
 certainly still inside it. What a phone writes *last*, when a recording stops
 cleanly, is the index saying where every frame lives. A Pixel does exactly
-that: the recording measured here is a camera original from a Pixel 7 Pro that
-names the phone inside its index (`com.android.manufacturer` Google,
-`com.android.model` Pixel 7 Pro), and the index is the last thing in the file.
+that: the recordings measured here are camera originals that name the phone inside
+their index (`com.android.manufacturer` Google, `com.android.model` Pixel 9 Pro,
+Pixel 8a and so on), and the index is the last thing in the file.
 Stop before it is written and you have a complete recording with no map, which
 every player refuses to touch.
 
@@ -105,12 +105,11 @@ A Mac app that does the same job. Drop in the file that will not open plus any
 clip from the same phone that does, and it rebuilds the index so the file plays
 again. Nothing is uploaded; it runs entirely on your Mac. **$69 once.**
 
-It is measured against a real Google Pixel 7 Pro recording, 1080p, camera
-original and cut mid-take at two points, with every recovered frame compared
-against the original by byte position and size. The counts are in the table on
-[the home page](https://cinesalve.honorboxx.workers.dev/), on the rows marked
-with the phone's own full recording as the reference, because it is the one
-camera original Pixel clip found that names its phone in its own index.
+It is measured against real camera originals from a Pixel 5, 6 Pro, 7 Pro, 8a, 9
+Pro and 9 Pro XL, 1080p, each cut mid-take, with every recovered frame compared
+against the original by byte position and size and the length of the recovered
+take against the camera's own. The counts are in the table on
+[the home page](https://cinesalve.honorboxx.workers.dev/).
 
 The sound comes back with the picture. A Pixel writes its sound around a
 metadata record for each picture, and Cinesalve reads that sound frame by frame
@@ -124,8 +123,8 @@ the recovered take plays at the phone's own speed.
 
 A damaged Pixel clip is genuinely useful: it goes into the test suite and the
 fix ships for everyone. One from any other Android phone is just as wanted:
-four have been through the suite so far, a Pixel 7 Pro, a Motorola moto x4, an
-LG-M250H and a Samsung Galaxy S23 Ultra, and every new phone is worth measuring.
+a Motorola moto x4, an LG-M250H, a Samsung Galaxy S23 Ultra and a Xiaomi 15T Pro
+have been through the suite beside the Pixels, and every new phone is worth measuring.
 Send the clip, or just describe it, to
 [cinesalve@proton.me](mailto:cinesalve@proton.me) with the phone and the
 recording mode. You will get a straight answer about whether it can be
