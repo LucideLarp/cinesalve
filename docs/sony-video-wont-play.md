@@ -100,7 +100,10 @@ reference file. Try it before paying anybody. If it will not build on your Mac,
 anywhere. A few seconds in the same mode and the same resolution is enough. A
 damaged Sony file does not state its own codec settings: XAVC S keeps them in the
 header the camera never got to write, so they have to be read from a working
-recording, which is why every tool that can do this asks for one.
+recording, which is why every tool that can do this asks for one. A Sony also
+lists in each clip only the picture settings that clip used. The settings a short
+clip does hold say which of Sony's known sets the camera writes, and Cinesalve
+fills in the rest from it.
 
 ## Cinesalve
 
