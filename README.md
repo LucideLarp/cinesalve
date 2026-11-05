@@ -117,6 +117,11 @@ one camera-original clip of that model is published anywhere to pair with.
 | Sony FDR-AX700, 4K 30p, cut at 85% | 159 / 159 | 100% | a different take |
 | Google Pixel 7 Pro, 1080p | 728 / 728 | 100% | its own full recording |
 | Google Pixel 7 Pro, cut at 85% | 1051 / 1051 | 100% | its own full recording |
+| Google Pixel 9 Pro, 1080p | 210 / 210 | 100% | a different take |
+| Google Pixel 9 Pro XL, 1080p | 90 / 90 | 100% | a different take |
+| Google Pixel 8a, 1080p 60p | 143 / 143 | 100% | a different take |
+| Google Pixel 6 Pro, 1080p | 64 / 64 | 100% | a different take |
+| Google Pixel 5, 1080p | 79 / 79 | 100% | its own full recording |
 | Motorola moto x4, 1080p | 336 / 336 | 100% | a different take |
 | Motorola moto x4, cut at 85% | 480 / 480 | 100% | a different take |
 | LG-M250H, 720p | 170 / 170 | 100% | a different take |

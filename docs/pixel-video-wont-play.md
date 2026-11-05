@@ -116,8 +116,9 @@ The sound comes back with the picture. A Pixel writes its sound around a
 metadata record for each picture, and Cinesalve reads that sound frame by frame
 with the system's own decoder as the judge of where each frame ends, stepping
 over the records, each of which names its own length. A Pixel also records at a
-variable frame rate and states each picture's duration in the record ahead of
-it, which Cinesalve reads, so the recovered take plays at the phone's own speed.
+variable frame rate and writes a record ahead of each picture; Cinesalve reads
+the durations there and holds them to the sound written beside the pictures, so
+the recovered take plays at the phone's own speed.
 
 ## Send it over
 
