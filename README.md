@@ -216,8 +216,8 @@ one camera-original clip of that model is published anywhere to pair with.
 | Olympus, cut at 85% | 569 / 569 | 100% | a different take |
 | Ricoh WG-80, 1080p | 817 / 817 | 100% | a different take |
 | Ricoh WG-80, cut at 85% | 1168 / 1168 | 100% | a different take |
-| Samsung SMX-F70 camcorder, 720x576 | 14380 / 14380 | 100% | a different take |
-| Samsung SMX-F70, cut at 85% | 20313 / 20313 | 100% | a different take |
+| Samsung SMX-F70 camcorder, 720x576 | 24792 / 24792 | 100% | a different take |
+| Samsung SMX-F70, cut at 85% | 34830 / 34830 | 100% | a different take |
 | YI action camera, 4K | 408 / 408 | 100% | a different take |
 | YI action camera, cut at 85% | 578 / 578 | 100% | a different take |
 | iCatch action camera, 1080p60 | 417 / 417 | 100% | a different take |
