@@ -51,6 +51,15 @@ camera and the same recording mode: change resolution or frame rate and the
 encoder configuration changes with it. Camera specific metadata sometimes also
 needs the `-s` flag so it skips atoms it does not recognise instead of stopping.
 
+If the output is much shorter than the recording, run it again with `-dyn`
+(untrunc's "use dynamic stats" option), and once more with `-s -dyn`. untrunc
+suggests `-s` itself when it gets stuck; it does not suggest `-dyn`. We cut
+recordings from several Canon DSLRs, an iPad and a Novatek dashcam short and ran
+untrunc on them: the default stopped within the first second of footage or
+wrote no picture at all, and `-dyn` recovered most or all of what was there. On
+a few other cameras `-dyn` did worse than the default. Each run writes its own
+output file, so keep both and use the longer one.
+
 ## What untrunc cannot tell you
 
 You get an output file and find out whether the recovery succeeded by opening
