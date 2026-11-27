@@ -69,21 +69,21 @@ clip you just made, and it rebuilds the index so the file plays again. Nothing
 is uploaded and the recovery runs offline. $69 once, every Mac you own.
 
 OBS writes its MP4s through ffmpeg, which is precisely what this is tested
-hardest against. Every frame is compared against the original by byte position
-and size:
+hardest against. Every frame, picture and sound, is compared against the
+original by byte position and size:
 
-| Recording cut off at | Frames recovered | Exact |
-|---|---|---|
-| 30% through | 90 / 90 | 100% |
-| 50% through | 149 / 149 | 100% |
-| 68% through | 203 / 203 | 100% |
-| 90% through | 269 / 269 | 100% |
-| 1080p 24fps, 55% through | 107 / 107 | 100% |
-| 480p 60fps, 45% through | 217 / 217 | 100% |
+| Recording cut off at | Frames recovered | Exact | Sound frames placed |
+|---|---|---|---|
+| 30% through | 90 / 90 | 100% | 131 / 131 |
+| 50% through | 149 / 149 | 100% | 215 / 215 |
+| 68% through | 203 / 203 | 100% | 293 / 293 |
+| 90% through | 269 / 269 | 100% | 388 / 388 |
+| 1080p 24fps, 55% through | 107 / 107 | 100% | 194 / 194 |
+| 480p 60fps, 45% through | 217 / 217 | 100% | 157 / 157 |
 
-Sound comes back with the picture on recordings of this kind, though about one
-audio frame in ten can land imperfectly and leave a click. The checker above
-counts what survived before you decide anything.
+Sound comes back with the picture on recordings of this kind, every audio frame
+at the byte position the encoder wrote it, with no decoder errors in the rebuilt
+file. The checker above counts what survived before you decide anything.
 
 ## Make it impossible next time
 
